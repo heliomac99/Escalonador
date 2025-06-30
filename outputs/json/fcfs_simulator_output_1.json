@@ -1,0 +1,6 @@
+[
+{"Process": 1, "Arrival": 0, "Start": 0, "End": 44, "Turnaround": 44, "CPU": 0, "IO": 32, "Waiting": 12, "Cycles": 12},
+{"Process": 2, "Arrival": 1, "Start": 44, "End": 80, "Turnaround": 79, "CPU": 43, "IO": 30, "Waiting": 6, "Cycles": 6},
+{"Process": 3, "Arrival": 2, "Start": 80, "End": 128, "Turnaround": 126, "CPU": 78, "IO": 12, "Waiting": 36, "Cycles": 36},
+{"Process": 4, "Arrival": 3, "Start": 128, "End": 140, "Turnaround": 137, "CPU": 125, "IO": 10, "Waiting": 2, "Cycles": 2},
+{"Process": 5, "Arrival": 4, "Start": 140, "End": 172, "Turnaround": 168, "CPU": 136, "IO": 24, "Waiting": 8, "Cycles": 8}]

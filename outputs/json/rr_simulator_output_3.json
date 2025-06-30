@@ -1,0 +1,16 @@
+[
+{"Process": 1, "Arrival": 0, "Start": 0, "End": 295, "Turnaround": 295, "CPU": 20, "IO": 15, "Waiting": 260, "Preemptions": 260, "Cycles": 0},
+{"Process": 2, "Arrival": 1, "Start": 4, "End": 269, "Turnaround": 268, "CPU": 40, "IO": 8, "Waiting": 220, "Preemptions": 220, "Cycles": 0},
+{"Process": 3, "Arrival": 2, "Start": 14, "End": 121, "Turnaround": 119, "CPU": 4, "IO": 2, "Waiting": 113, "Preemptions": 113, "Cycles": 0},
+{"Process": 4, "Arrival": 3, "Start": 16, "End": 196, "Turnaround": 193, "CPU": 24, "IO": 12, "Waiting": 157, "Preemptions": 157, "Cycles": 0},
+{"Process": 5, "Arrival": 4, "Start": 24, "End": 321, "Turnaround": 317, "CPU": 18, "IO": 12, "Waiting": 287, "Preemptions": 287, "Cycles": 0},
+{"Process": 6, "Arrival": 5, "Start": 27, "End": 206, "Turnaround": 201, "CPU": 21, "IO": 15, "Waiting": 165, "Preemptions": 165, "Cycles": 0},
+{"Process": 7, "Arrival": 6, "Start": 34, "End": 281, "Turnaround": 275, "CPU": 36, "IO": 8, "Waiting": 231, "Preemptions": 231, "Cycles": 0},
+{"Process": 8, "Arrival": 7, "Start": 43, "End": 154, "Turnaround": 147, "CPU": 12, "IO": 12, "Waiting": 123, "Preemptions": 123, "Cycles": 0},
+{"Process": 9, "Arrival": 8, "Start": 49, "End": 283, "Turnaround": 275, "CPU": 24, "IO": 4, "Waiting": 247, "Preemptions": 247, "Cycles": 2},
+{"Process": 10, "Arrival": 9, "Start": 59, "End": 324, "Turnaround": 315, "CPU": 39, "IO": 9, "Waiting": 267, "Preemptions": 267, "Cycles": 3},
+{"Process": 11, "Arrival": 10, "Start": 69, "End": 70, "Turnaround": 60, "CPU": 1, "IO": 7, "Waiting": 52, "Preemptions": 52, "Cycles": 0},
+{"Process": 12, "Arrival": 11, "Start": 70, "End": 325, "Turnaround": 314, "CPU": 33, "IO": 12, "Waiting": 269, "Preemptions": 269, "Cycles": 3},
+{"Process": 13, "Arrival": 12, "Start": 80, "End": 165, "Turnaround": 153, "CPU": 10, "IO": 10, "Waiting": 133, "Preemptions": 133, "Cycles": 0},
+{"Process": 14, "Arrival": 13, "Start": 85, "End": 291, "Turnaround": 278, "CPU": 28, "IO": 6, "Waiting": 244, "Preemptions": 244, "Cycles": 2},
+{"Process": 15, "Arrival": 14, "Start": 95, "End": 174, "Turnaround": 160, "CPU": 15, "IO": 4, "Waiting": 141, "Preemptions": 141, "Cycles": 1}]

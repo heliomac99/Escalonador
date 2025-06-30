@@ -1,0 +1,55 @@
+
+Process 1 Report:
+Arrival Time: 0
+Start Time: 0
+End Time: 114
+Turnaround Time: 114
+Total CPU Time: 32
+Total I/O Time: 12
+Waiting Time: 32
+Number of Preemptions: 4
+Cycles Completed: 4
+
+Process 2 Report:
+Arrival Time: 1
+Start Time: 5
+End Time: 145
+Turnaround Time: 144
+Total CPU Time: 30
+Total I/O Time: 6
+Waiting Time: 59
+Number of Preemptions: 3
+Cycles Completed: 3
+
+Process 3 Report:
+Arrival Time: 2
+Start Time: 10
+End Time: 58
+Turnaround Time: 56
+Total CPU Time: 12
+Total I/O Time: 36
+Waiting Time: 10
+Number of Preemptions: 0
+Cycles Completed: 6
+
+Process 4 Report:
+Arrival Time: 3
+Start Time: 58
+End Time: 70
+Turnaround Time: 67
+Total CPU Time: 10
+Total I/O Time: 2
+Waiting Time: 22
+Number of Preemptions: 0
+Cycles Completed: 2
+
+Process 5 Report:
+Arrival Time: 4
+Start Time: 70
+End Time: 172
+Turnaround Time: 168
+Total CPU Time: 24
+Total I/O Time: 8
+Waiting Time: 84
+Number of Preemptions: 2
+Cycles Completed: 2

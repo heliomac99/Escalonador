@@ -1,0 +1,220 @@
+
+Process 1 Report:
+Arrival Time: 0
+Start Time: 0
+End Time: 190
+Turnaround Time: 190
+Total CPU Time: 18
+Total I/O Time: 6
+Waiting Time: 111
+Number of Preemptions: 3
+Cycles Completed: 3
+
+Process 2 Report:
+Arrival Time: 1
+Start Time: 5
+End Time: 205
+Turnaround Time: 204
+Total CPU Time: 18
+Total I/O Time: 2
+Waiting Time: 124
+Number of Preemptions: 2
+Cycles Completed: 2
+
+Process 3 Report:
+Arrival Time: 2
+Start Time: 10
+End Time: 37
+Turnaround Time: 35
+Total CPU Time: 12
+Total I/O Time: 15
+Waiting Time: 10
+Number of Preemptions: 0
+Cycles Completed: 3
+
+Process 4 Report:
+Arrival Time: 3
+Start Time: 37
+End Time: 222
+Turnaround Time: 219
+Total CPU Time: 16
+Total I/O Time: 6
+Waiting Time: 137
+Number of Preemptions: 2
+Cycles Completed: 2
+
+Process 5 Report:
+Arrival Time: 4
+Start Time: 42
+End Time: 244
+Turnaround Time: 240
+Total CPU Time: 21
+Total I/O Time: 6
+Waiting Time: 148
+Number of Preemptions: 3
+Cycles Completed: 3
+
+Process 6 Report:
+Arrival Time: 5
+Start Time: 47
+End Time: 271
+Turnaround Time: 266
+Total CPU Time: 24
+Total I/O Time: 8
+Waiting Time: 164
+Number of Preemptions: 2
+Cycles Completed: 2
+
+Process 7 Report:
+Arrival Time: 6
+Start Time: 52
+End Time: 60
+Turnaround Time: 54
+Total CPU Time: 1
+Total I/O Time: 7
+Waiting Time: 32
+Number of Preemptions: 0
+Cycles Completed: 1
+
+Process 8 Report:
+Arrival Time: 7
+Start Time: 60
+End Time: 88
+Turnaround Time: 81
+Total CPU Time: 20
+Total I/O Time: 8
+Waiting Time: 33
+Number of Preemptions: 0
+Cycles Completed: 4
+
+Process 9 Report:
+Arrival Time: 8
+Start Time: 88
+End Time: 100
+Turnaround Time: 92
+Total CPU Time: 9
+Total I/O Time: 3
+Waiting Time: 53
+Number of Preemptions: 0
+Cycles Completed: 3
+
+Process 10 Report:
+Arrival Time: 9
+Start Time: 100
+End Time: 290
+Turnaround Time: 281
+Total CPU Time: 20
+Total I/O Time: 4
+Waiting Time: 178
+Number of Preemptions: 2
+Cycles Completed: 2
+
+Process 11 Report:
+Arrival Time: 10
+Start Time: 105
+End Time: 303
+Turnaround Time: 293
+Total CPU Time: 12
+Total I/O Time: 6
+Waiting Time: 193
+Number of Preemptions: 2
+Cycles Completed: 2
+
+Process 12 Report:
+Arrival Time: 11
+Start Time: 110
+End Time: 322
+Turnaround Time: 311
+Total CPU Time: 22
+Total I/O Time: 2
+Waiting Time: 195
+Number of Preemptions: 2
+Cycles Completed: 2
+
+Process 13 Report:
+Arrival Time: 12
+Start Time: 115
+End Time: 131
+Turnaround Time: 119
+Total CPU Time: 4
+Total I/O Time: 12
+Waiting Time: 72
+Number of Preemptions: 0
+Cycles Completed: 2
+
+Process 14 Report:
+Arrival Time: 13
+Start Time: 131
+End Time: 365
+Turnaround Time: 352
+Total CPU Time: 39
+Total I/O Time: 9
+Waiting Time: 212
+Number of Preemptions: 3
+Cycles Completed: 3
+
+Process 15 Report:
+Arrival Time: 14
+Start Time: 136
+End Time: 392
+Turnaround Time: 378
+Total CPU Time: 28
+Total I/O Time: 4
+Waiting Time: 246
+Number of Preemptions: 2
+Cycles Completed: 2
+
+Process 16 Report:
+Arrival Time: 15
+Start Time: 141
+End Time: 151
+Turnaround Time: 136
+Total CPU Time: 0
+Total I/O Time: 10
+Waiting Time: 82
+Number of Preemptions: 0
+Cycles Completed: 2
+
+Process 17 Report:
+Arrival Time: 16
+Start Time: 151
+End Time: 406
+Turnaround Time: 390
+Total CPU Time: 15
+Total I/O Time: 4
+Waiting Time: 265
+Number of Preemptions: 1
+Cycles Completed: 1
+
+Process 18 Report:
+Arrival Time: 17
+Start Time: 156
+End Time: 457
+Turnaround Time: 440
+Total CPU Time: 32
+Total I/O Time: 4
+Waiting Time: 295
+Number of Preemptions: 4
+Cycles Completed: 2
+
+Process 19 Report:
+Arrival Time: 18
+Start Time: 161
+End Time: 460
+Turnaround Time: 442
+Total CPU Time: 17
+Total I/O Time: 1
+Waiting Time: 312
+Number of Preemptions: 2
+Cycles Completed: 1
+
+Process 20 Report:
+Arrival Time: 19
+Start Time: 166
+End Time: 508
+Turnaround Time: 489
+Total CPU Time: 54
+Total I/O Time: 9
+Waiting Time: 314
+Number of Preemptions: 6
+Cycles Completed: 3

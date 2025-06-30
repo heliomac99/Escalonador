@@ -1,0 +1,11 @@
+[
+{"Process": 1, "Arrival": 0, "Start": 0, "End": 223, "Turnaround": 223, "CPU": 45, "IO": 6, "Waiting": 172, "Preemptions": 172, "Cycles": 3},
+{"Process": 2, "Arrival": 1, "Start": 10, "End": 180, "Turnaround": 179, "CPU": 12, "IO": 24, "Waiting": 143, "Preemptions": 143, "Cycles": 0},
+{"Process": 3, "Arrival": 2, "Start": 13, "End": 208, "Turnaround": 206, "CPU": 40, "IO": 10, "Waiting": 156, "Preemptions": 156, "Cycles": 0},
+{"Process": 4, "Arrival": 3, "Start": 21, "End": 98, "Turnaround": 95, "CPU": 20, "IO": 8, "Waiting": 67, "Preemptions": 67, "Cycles": 0},
+{"Process": 5, "Arrival": 4, "Start": 31, "End": 36, "Turnaround": 32, "CPU": 5, "IO": 8, "Waiting": 19, "Preemptions": 19, "Cycles": 0},
+{"Process": 6, "Arrival": 5, "Start": 36, "End": 153, "Turnaround": 148, "CPU": 18, "IO": 15, "Waiting": 115, "Preemptions": 115, "Cycles": 0},
+{"Process": 7, "Arrival": 6, "Start": 42, "End": 264, "Turnaround": 258, "CPU": 72, "IO": 6, "Waiting": 180, "Preemptions": 180, "Cycles": 6},
+{"Process": 8, "Arrival": 7, "Start": 52, "End": 110, "Turnaround": 103, "CPU": 8, "IO": 18, "Waiting": 77, "Preemptions": 77, "Cycles": 0},
+{"Process": 9, "Arrival": 8, "Start": 56, "End": 172, "Turnaround": 164, "CPU": 27, "IO": 9, "Waiting": 128, "Preemptions": 128, "Cycles": 0},
+{"Process": 10, "Arrival": 9, "Start": 65, "End": 126, "Turnaround": 117, "CPU": 14, "IO": 10, "Waiting": 93, "Preemptions": 93, "Cycles": 0}]

@@ -1,0 +1,220 @@
+Enter number of processes (max 20):
+Process 1 - Arrival time:
+Process 1 - CPU time per cycle:
+Process 1 - I/O time per cycle:
+Process 1 - Number of cycles:
+Process 2 - Arrival time:
+Process 2 - CPU time per cycle:
+Process 2 - I/O time per cycle:
+Process 2 - Number of cycles:
+Process 3 - Arrival time:
+Process 3 - CPU time per cycle:
+Process 3 - I/O time per cycle:
+Process 3 - Number of cycles:
+Process 4 - Arrival time:
+Process 4 - CPU time per cycle:
+Process 4 - I/O time per cycle:
+Process 4 - Number of cycles:
+Process 5 - Arrival time:
+Process 5 - CPU time per cycle:
+Process 5 - I/O time per cycle:
+Process 5 - Number of cycles:
+Process 6 - Arrival time:
+Process 6 - CPU time per cycle:
+Process 6 - I/O time per cycle:
+Process 6 - Number of cycles:
+Process 7 - Arrival time:
+Process 7 - CPU time per cycle:
+Process 7 - I/O time per cycle:
+Process 7 - Number of cycles:
+Process 8 - Arrival time:
+Process 8 - CPU time per cycle:
+Process 8 - I/O time per cycle:
+Process 8 - Number of cycles:
+Process 9 - Arrival time:
+Process 9 - CPU time per cycle:
+Process 9 - I/O time per cycle:
+Process 9 - Number of cycles:
+Process 10 - Arrival time:
+Process 10 - CPU time per cycle:
+Process 10 - I/O time per cycle:
+Process 10 - Number of cycles:
+
+Starting FCFS simulation with Arrival Times
+
+[Time 0] Process 1 executing cycle 1 for 15 s
+[Time 15] Process 1 finished cycle 1, performing I/O for 2 s
+[Time 17] Process 1 executing cycle 2 for 15 s
+[Time 32] Process 1 finished cycle 2, performing I/O for 2 s
+[Time 34] Process 1 executing cycle 3 for 15 s
+[Time 49] Process 1 finished cycle 3, performing I/O for 2 s
+[Time 51] Process 1 finished all cycles.
+[Time 51] Process 2 executing cycle 1 for 3 s
+[Time 54] Process 2 finished cycle 1, performing I/O for 6 s
+[Time 60] Process 2 executing cycle 2 for 3 s
+[Time 63] Process 2 finished cycle 2, performing I/O for 6 s
+[Time 69] Process 2 executing cycle 3 for 3 s
+[Time 72] Process 2 finished cycle 3, performing I/O for 6 s
+[Time 78] Process 2 executing cycle 4 for 3 s
+[Time 81] Process 2 finished cycle 4, performing I/O for 6 s
+[Time 87] Process 2 finished all cycles.
+[Time 87] Process 3 executing cycle 1 for 8 s
+[Time 95] Process 3 finished cycle 1, performing I/O for 2 s
+[Time 97] Process 3 executing cycle 2 for 8 s
+[Time 105] Process 3 finished cycle 2, performing I/O for 2 s
+[Time 107] Process 3 executing cycle 3 for 8 s
+[Time 115] Process 3 finished cycle 3, performing I/O for 2 s
+[Time 117] Process 3 executing cycle 4 for 8 s
+[Time 125] Process 3 finished cycle 4, performing I/O for 2 s
+[Time 127] Process 3 executing cycle 5 for 8 s
+[Time 135] Process 3 finished cycle 5, performing I/O for 2 s
+[Time 137] Process 3 finished all cycles.
+[Time 137] Process 4 executing cycle 1 for 10 s
+[Time 147] Process 4 finished cycle 1, performing I/O for 4 s
+[Time 151] Process 4 executing cycle 2 for 10 s
+[Time 161] Process 4 finished cycle 2, performing I/O for 4 s
+[Time 165] Process 4 finished all cycles.
+[Time 165] Process 5 executing cycle 1 for 5 s
+[Time 170] Process 5 finished cycle 1, performing I/O for 8 s
+[Time 178] Process 5 finished all cycles.
+[Time 178] Process 6 executing cycle 1 for 6 s
+[Time 184] Process 6 finished cycle 1, performing I/O for 5 s
+[Time 189] Process 6 executing cycle 2 for 6 s
+[Time 195] Process 6 finished cycle 2, performing I/O for 5 s
+[Time 200] Process 6 executing cycle 3 for 6 s
+[Time 206] Process 6 finished cycle 3, performing I/O for 5 s
+[Time 211] Process 6 finished all cycles.
+[Time 211] Process 7 executing cycle 1 for 12 s
+[Time 223] Process 7 finished cycle 1, performing I/O for 1 s
+[Time 224] Process 7 executing cycle 2 for 12 s
+[Time 236] Process 7 finished cycle 2, performing I/O for 1 s
+[Time 237] Process 7 executing cycle 3 for 12 s
+[Time 249] Process 7 finished cycle 3, performing I/O for 1 s
+[Time 250] Process 7 executing cycle 4 for 12 s
+[Time 262] Process 7 finished cycle 4, performing I/O for 1 s
+[Time 263] Process 7 executing cycle 5 for 12 s
+[Time 275] Process 7 finished cycle 5, performing I/O for 1 s
+[Time 276] Process 7 executing cycle 6 for 12 s
+[Time 288] Process 7 finished cycle 6, performing I/O for 1 s
+[Time 289] Process 7 finished all cycles.
+[Time 289] Process 8 executing cycle 1 for 4 s
+[Time 293] Process 8 finished cycle 1, performing I/O for 9 s
+[Time 302] Process 8 executing cycle 2 for 4 s
+[Time 306] Process 8 finished cycle 2, performing I/O for 9 s
+[Time 315] Process 8 finished all cycles.
+[Time 315] Process 9 executing cycle 1 for 9 s
+[Time 324] Process 9 finished cycle 1, performing I/O for 3 s
+[Time 327] Process 9 executing cycle 2 for 9 s
+[Time 336] Process 9 finished cycle 2, performing I/O for 3 s
+[Time 339] Process 9 executing cycle 3 for 9 s
+[Time 348] Process 9 finished cycle 3, performing I/O for 3 s
+[Time 351] Process 9 finished all cycles.
+[Time 351] Process 10 executing cycle 1 for 7 s
+[Time 358] Process 10 finished cycle 1, performing I/O for 5 s
+[Time 363] Process 10 executing cycle 2 for 7 s
+[Time 370] Process 10 finished cycle 2, performing I/O for 5 s
+[Time 375] Process 10 finished all cycles.
+
+All processes completed.
+
+==== Execution Report ====
+
+Process 1 Report:
+Arrival Time: 0
+Start Time: 0
+End Time: 51
+Turnaround Time: 51
+Waiting Time: 0
+Total CPU Time: 45
+Total I/O Time: 6
+Cycles Completed: 3
+
+Process 2 Report:
+Arrival Time: 1
+Start Time: 51
+End Time: 87
+Turnaround Time: 86
+Waiting Time: 50
+Total CPU Time: 12
+Total I/O Time: 24
+Cycles Completed: 4
+
+Process 3 Report:
+Arrival Time: 2
+Start Time: 87
+End Time: 137
+Turnaround Time: 135
+Waiting Time: 85
+Total CPU Time: 40
+Total I/O Time: 10
+Cycles Completed: 5
+
+Process 4 Report:
+Arrival Time: 3
+Start Time: 137
+End Time: 165
+Turnaround Time: 162
+Waiting Time: 134
+Total CPU Time: 20
+Total I/O Time: 8
+Cycles Completed: 2
+
+Process 5 Report:
+Arrival Time: 4
+Start Time: 165
+End Time: 178
+Turnaround Time: 174
+Waiting Time: 161
+Total CPU Time: 5
+Total I/O Time: 8
+Cycles Completed: 1
+
+Process 6 Report:
+Arrival Time: 5
+Start Time: 178
+End Time: 211
+Turnaround Time: 206
+Waiting Time: 173
+Total CPU Time: 18
+Total I/O Time: 15
+Cycles Completed: 3
+
+Process 7 Report:
+Arrival Time: 6
+Start Time: 211
+End Time: 289
+Turnaround Time: 283
+Waiting Time: 205
+Total CPU Time: 72
+Total I/O Time: 6
+Cycles Completed: 6
+
+Process 8 Report:
+Arrival Time: 7
+Start Time: 289
+End Time: 315
+Turnaround Time: 308
+Waiting Time: 282
+Total CPU Time: 8
+Total I/O Time: 18
+Cycles Completed: 2
+
+Process 9 Report:
+Arrival Time: 8
+Start Time: 315
+End Time: 351
+Turnaround Time: 343
+Waiting Time: 307
+Total CPU Time: 27
+Total I/O Time: 9
+Cycles Completed: 3
+
+Process 10 Report:
+Arrival Time: 9
+Start Time: 351
+End Time: 375
+Turnaround Time: 366
+Waiting Time: 342
+Total CPU Time: 14
+Total I/O Time: 10
+Cycles Completed: 2
