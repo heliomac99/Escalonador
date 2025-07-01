@@ -1,6 +1,0 @@
-[
-{"Process": 3, "Arrival": 12, "Start": 12, "End": 27039, "Turnaround": 27027, "CPU": 0, "IO": 10296, "Waiting": 16731, "Cycles": 16731},
-{"Process": 5, "Arrival": 72, "Start": 27039, "End": 29339, "Turnaround": 29267, "CPU": 26967, "IO": 1340, "Waiting": 960, "Cycles": 960},
-{"Process": 2, "Arrival": 98, "Start": 29339, "End": 75706, "Turnaround": 75608, "CPU": 29241, "IO": 35024, "Waiting": 11343, "Cycles": 11343},
-{"Process": 1, "Arrival": 137, "Start": 75706, "End": 88306, "Turnaround": 88169, "CPU": 75569, "IO": 2646, "Waiting": 9954, "Cycles": 9954},
-{"Process": 4, "Arrival": 185, "Start": 88306, "End": 102166, "Turnaround": 101981, "CPU": 88121, "IO": 4466, "Waiting": 9394, "Cycles": 9394}]
