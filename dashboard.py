@@ -162,26 +162,32 @@ plt.tight_layout()
 plt.savefig(os.path.join(GRAFICOS_DIR, "jain_waiting.png"))
 plt.close()
 
-# 8. Média Ponderada Turnaround - barras com rótulos
-wm = df.groupby("Algoritmo").apply(lambda g: (g["Turnaround"]*g["Priority"]).sum()/g["Priority"].sum()).reset_index(name="W_Turnaround")
-ax = wm.plot(kind="bar", x="Algoritmo", y="W_Turnaround", figsize=(6,4), legend=False)
-plt.title("Média Ponderada Turnaround")
-plt.ylabel("Valor")
-for container in ax.containers:
-    ax.bar_label(container, fmt='%.2f', padding=3)
-plt.tight_layout()
-plt.savefig(os.path.join(GRAFICOS_DIR, "hist_ponderado_turnaround.png"))
-plt.close()
+# 8 & 9. Média Ponderada por Input e Algoritmo
+for id in ids:
+    sub = df[df["ID"] == id]
+    if sub.empty: continue
+    # Turnaround ponderado
+    wt = sub.groupby("Algoritmo").apply(lambda g: (g["Turnaround"] * g["Priority"]).sum() / g["Priority"].sum())
+    wt = wt.reset_index(name="W_Turnaround")
+    ax = wt.plot(kind="bar", x="Algoritmo", y="W_Turnaround", figsize=(6,4), legend=False,
+                 title=f"Turnaround Médio Ponderado - Input {id}")
+    plt.ylabel("Valor")
+    for container in ax.containers:
+        ax.bar_label(container, fmt='%.2f', padding=3)
+    plt.tight_layout()
+    plt.savefig(os.path.join(GRAFICOS_DIR, f"ponderado_turnaround_input_{id}.png"))
+    plt.close()
 
-# 9. Média Ponderada WaitingTime - barras com rótulos
-ww = df.groupby("Algoritmo").apply(lambda g: (g["WaitingTime"]*g["Priority"]).sum()/g["Priority"].sum()).reset_index(name="W_WaitingTime")
-ax = ww.plot(kind="bar", x="Algoritmo", y="W_WaitingTime", figsize=(6,4), legend=False)
-plt.title("Média Ponderada Waiting Time")
-plt.ylabel("Valor")
-for container in ax.containers:
-    ax.bar_label(container, fmt='%.2f', padding=3)
-plt.tight_layout()
-plt.savefig(os.path.join(GRAFICOS_DIR, "hist_ponderado_waiting.png"))
-plt.close()
+    # WaitingTime ponderado
+    ww = sub.groupby("Algoritmo").apply(lambda g: (g["WaitingTime"] * g["Priority"]).sum() / g["Priority"].sum())
+    ww = ww.reset_index(name="W_WaitingTime")
+    ax = ww.plot(kind="bar", x="Algoritmo", y="W_WaitingTime", figsize=(6,4), legend=False,
+                 title=f"Waiting Time Médio Ponderado - Input {id}")
+    plt.ylabel("Valor")
+    for container in ax.containers:
+        ax.bar_label(container, fmt='%.2f', padding=3)
+    plt.tight_layout()
+    plt.savefig(os.path.join(GRAFICOS_DIR, f"ponderado_waiting_input_{id}.png"))
+    plt.close()
 
 print("[✓] Todos os gráficos gerados.")
