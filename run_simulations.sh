@@ -113,16 +113,19 @@ generate_json() {
             getline; split($0, a, ": "); preempt = a[2]
             getline; split($0, a, ": "); cycles = a[2]
         }
+        # captura Priority
+        getline; split($0, a, ": "); priority = a[2]
 
         if (first == 0) printf(",\n") >> outfile
         first = 0
 
-        printf("{\"Process\": %s, \"Arrival\": %s, \"Start\": %s, \"End\": %s, \"Turnaround\": %s, \"CPU\": %s, \"IO\": %s, \"Waiting\": %s, ", pid, arrival, start, end, tat, cpu, io, waiting) >> outfile
+        printf("{\"Process\": %s, \"Arrival\": %s, \"Start\": %s, \"End\": %s, \"Turnaround\": %s, \"CPU\": %s, \"IO\": %s, \"Waiting\": %s, ",
+               pid, arrival, start, end, tat, cpu, io, waiting) >> outfile
 
         if (type == "FCFS") {
-            printf("\"Cycles\": %s}", cycles) >> outfile
+            printf("\"Cycles\": %s, \"Priority\": %s}", cycles, priority) >> outfile
         } else {
-            printf("\"Preemptions\": %s, \"Cycles\": %s}", preempt, cycles) >> outfile
+            printf("\"Preemptions\": %s, \"Cycles\": %s, \"Priority\": %s}", preempt, cycles, priority) >> outfile
         }
     }
     ' outfile="$json_file" "$output_file"
