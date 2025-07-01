@@ -4,134 +4,184 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import glob
 
-# Diretórios onde estão armazenados os JSONs
+# Diretórios
 JSON_DIR = "outputs/json"
-# Diretório para salvar gráficos
 GRAFICOS_DIR = "outputs/graficos"
+os.makedirs(GRAFICOS_DIR, exist_ok=True)
 
-# Buscar todos os arquivos JSON disponíveis
+# Arquivos JSON
 fcfs_files = sorted(glob.glob(os.path.join(JSON_DIR, "fcfs_simulator_output_*.json")))
-rr_files = sorted(glob.glob(os.path.join(JSON_DIR, "rr_simulator_output_*.json")))
-rrd_files = sorted(glob.glob(os.path.join(JSON_DIR, "rr_dynamic_simulator_output_*.json")))
+rr_files   = sorted(glob.glob(os.path.join(JSON_DIR, "rr_simulator_output_*.json")))
+rrd_files  = sorted(glob.glob(os.path.join(JSON_DIR, "rr_dynamic_simulator_output_*.json")))
 
-# Extrair os IDs únicos a partir dos nomes de arquivo
+# IDs únicos
 ids = sorted(set(
     int(os.path.basename(f).split("_")[-1].split(".")[0])
     for f in fcfs_files + rr_files + rrd_files
 ))
 
 todos_dados = []
-
 for id in ids:
     try:
-        with open(os.path.join(JSON_DIR, f"fcfs_simulator_output_{id}.json")) as f1, \
-             open(os.path.join(JSON_DIR, f"rr_simulator_output_{id}.json")) as f2, \
-             open(os.path.join(JSON_DIR, f"rr_dynamic_simulator_output_{id}.json")) as f3:
-
-            fcfs_data = json.load(f1)
-            rr_data   = json.load(f2)
-            rrd_data  = json.load(f3)
-
-            if not fcfs_data or not rr_data or not rrd_data:
-                print(f"[!] Input {id} com dados incompletos ou vazios. Pulando.")
-                continue
-
-            for proc_fcfs, proc_rr, proc_rrd in zip(fcfs_data, rr_data, rrd_data):
-                todos_dados.append({
-                    "ID": id,
-                    "Algoritmo": "FCFS",
-                    "WaitingTime": int(proc_fcfs.get("Waiting", 0)),
-                    "Preempcoes": 0,
-                    "Turnaround": int(proc_fcfs.get("Turnaround", 0))
-                })
-                todos_dados.append({
-                    "ID": id,
-                    "Algoritmo": "RR",
-                    "WaitingTime": int(proc_rr.get("Waiting", 0)),
-                    "Preempcoes": int(proc_rr.get("Preemptions", proc_rr.get("Preempcoes", 0))),
-                    "Turnaround": int(proc_rr.get("Turnaround", 0))
-                })
-                todos_dados.append({
-                    "ID": id,
-                    "Algoritmo": "RR Dinâmico",
-                    "WaitingTime": int(proc_rrd.get("Waiting", 0)),
-                    "Preempcoes": int(proc_rrd.get("Preemptions", proc_rrd.get("Preempcoes", 0))),
-                    "Turnaround": int(proc_rrd.get("Turnaround", 0))
-                })
-
+        with open(f"{JSON_DIR}/fcfs_simulator_output_{id}.json") as f1, \
+             open(f"{JSON_DIR}/rr_simulator_output_{id}.json")   as f2, \
+             open(f"{JSON_DIR}/rr_dynamic_simulator_output_{id}.json") as f3:
+            d1, d2, d3 = json.load(f1), json.load(f2), json.load(f3)
+            for proc_fcfs, proc_rr, proc_rrd in zip(d1, d2, d3):
+                for alg, proc in [("FCFS", proc_fcfs), ("RR", proc_rr), ("RR Dinâmico", proc_rrd)]:
+                    todos_dados.append({
+                        "ID": id,
+                        "Algoritmo": alg,
+                        "WaitingTime": int(proc.get("Waiting", 0)),
+                        "Preempcoes": int(proc.get("Preemptions", proc.get("Preempcoes", 0))) if alg != "FCFS" else 0,
+                        "Turnaround": int(proc.get("Turnaround", 0)),
+                        "Priority": int(proc.get("Priority", 0))
+                    })
     except FileNotFoundError:
-        print(f"[!] Arquivo faltando para o input {id}. Pulando...")
+        continue
 
-# Montar DataFrame
+# DataFrame
 if todos_dados:
     df = pd.DataFrame(todos_dados)
 else:
     df = pd.DataFrame()
 
-print("\nColunas detectadas:", df.columns if not df.empty else "nenhuma")
-print("\nConteúdo do DataFrame:")
-print(df)
+# Converter tipos
+for col in ["WaitingTime", "Preempcoes", "Turnaround", "Priority"]:
+    if col in df.columns:
+        df[col] = pd.to_numeric(df[col], errors="coerce")
 
-# Converter colunas para numérico
-if not df.empty:
-    if all(col in df.columns for col in ["WaitingTime", "Preempcoes", "Turnaround"]):
-        df[["WaitingTime", "Preempcoes", "Turnaround"]] = \
-            df[["WaitingTime", "Preempcoes", "Turnaround"]].apply(pd.to_numeric, errors="coerce")
-    else:
-        print("[!] As colunas esperadas não estão presentes no DataFrame.")
-else:
-    print("[!] DataFrame vazio. Nenhum dado foi carregado.")
+if df.empty:
+    print("Nenhum dado para gerar relatórios.")
+    exit()
 
-# Salvar CSV detalhado (por processo)
-if not df.empty:
-    df.to_csv("relatorio_completo.csv", index=False)
+# CSV completo
+df.to_csv("relatorio_completo.csv", index=False)
 
-    # Calcular médias por (Input, Algoritmo)
-    medias_det = df.groupby(["ID", "Algoritmo"])[["Preempcoes", "Turnaround", "WaitingTime"]].mean().reset_index()
-    medias_det.rename(columns={
-        "Preempcoes": "Preempcoes_Media",
-        "Turnaround": "Turnaround_Medio",
-        "WaitingTime": "WaitingTime_Medio"
-    }, inplace=True)
+# Médias por Input e Algoritmo
+medias = (
+    df.groupby(["ID", "Algoritmo"])[["WaitingTime", "Preempcoes", "Turnaround"]]
+      .mean()
+      .reset_index()
+)
+medias.to_csv("relatorio_medias_por_algoritmo.csv", index=False)
 
-    print("\nMétricas médias por Input e Algoritmo:")
-    print(medias_det)
+# 1. Gráficos originais (barras com rótulos)
+for metrica in ["WaitingTime", "Preempcoes", "Turnaround"]:
+    for id in ids:
+        subset = df[df["ID"] == id]
+        pivot = subset.pivot_table(index="Algoritmo", values=metrica, aggfunc="mean")
+        if pivot.empty: continue
+        ax = pivot.plot(kind="bar", figsize=(8,5), title=f"{metrica} Médio - Input {id}")
+        ax.set_ylabel(metrica)
+        ax.set_xlabel("Algoritmo")
+        ax.grid(True)
+        # adicionar rótulos de valor
+        for container in ax.containers:
+            ax.bar_label(container, fmt='%d', padding=3)
+        plt.tight_layout()
+        plt.savefig(os.path.join(GRAFICOS_DIR, f"media_{metrica.lower()}_input_{id}.png"))
+        plt.close()
 
-    # Salvar CSV com médias detalhadas
-    medias_det.to_csv("relatorio_medias_por_algoritmo.csv", index=False)
+# 2. Scatter Turnaround vs Priority
+plt.figure(figsize=(8,5))
+for alg in df["Algoritmo"].unique():
+    grp = df[df["Algoritmo"] == alg]
+    plt.scatter(grp["Priority"], grp["Turnaround"], label=alg)
+plt.title("Turnaround vs Priority")
+plt.xlabel("Priority")
+plt.ylabel("Turnaround")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.savefig(os.path.join(GRAFICOS_DIR, "turnaround_vs_priority.png"))
+plt.close()
 
-    # Criar pasta de gráficos
-    os.makedirs(GRAFICOS_DIR, exist_ok=True)
+# 3. Scatter WaitingTime vs Priority
+plt.figure(figsize=(8,5))
+for alg in df["Algoritmo"].unique():
+    grp = df[df["Algoritmo"] == alg]
+    plt.scatter(grp["Priority"], grp["WaitingTime"], label=alg)
+plt.title("Waiting Time vs Priority")
+plt.xlabel("Priority")
+plt.ylabel("Waiting Time")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.savefig(os.path.join(GRAFICOS_DIR, "waiting_vs_priority.png"))
+plt.close()
 
-    # Gerar gráficos de médias por algoritmo para cada input
-    metricas = ["WaitingTime", "Preempcoes", "Turnaround"]
-    for metrica in metricas:
-        for id in ids:
-            subset = df[df["ID"] == id]
-            pivot = subset.pivot_table(index="Algoritmo", values=metrica, aggfunc="mean")
+# 4. Histograma WaitingTime
+plt.figure(figsize=(8,5))
+for alg in df["Algoritmo"].unique():
+    plt.hist(df[df["Algoritmo"] == alg]["WaitingTime"], bins=20, alpha=0.5, label=alg)
+plt.title("Distribuição de Waiting Time")
+plt.xlabel("Waiting Time")
+plt.ylabel("Frequência")
+plt.legend()
+plt.tight_layout()
+plt.savefig(os.path.join(GRAFICOS_DIR, "hist_waiting_distribution.png"))
+plt.close()
 
-            if pivot.dropna().empty:
-                print(f"[!] Sem dados válidos para {metrica} - Input {id}. Pulando gráfico.")
-                continue
+# 5. Histograma Turnaround
+plt.figure(figsize=(8,5))
+for alg in df["Algoritmo"].unique():
+    plt.hist(df[df["Algoritmo"] == alg]["Turnaround"], bins=20, alpha=0.5, label=alg)
+plt.title("Distribuição de Turnaround Time")
+plt.xlabel("Turnaround Time")
+plt.ylabel("Frequência")
+plt.legend()
+plt.tight_layout()
+plt.savefig(os.path.join(GRAFICOS_DIR, "hist_turnaround_distribution.png"))
+plt.close()
 
-            ax = pivot.plot(
-                kind="bar",
-                title=f"{metrica} Médio por Algoritmo - Input {id}",
-                figsize=(8, 5)
-            )
-            plt.ylabel(metrica)
-            plt.xlabel("Algoritmo")
-            plt.tight_layout()
-            plt.grid(True)
+# 6. Boxplot Preempções
+plt.figure(figsize=(8,5))
+df.boxplot(column="Preempcoes", by="Algoritmo")
+plt.title("Distribuição de Preempções por Algoritmo")
+plt.suptitle("")
+plt.ylabel("Preempções")
+plt.tight_layout()
+plt.savefig(os.path.join(GRAFICOS_DIR, "box_preemptions.png"))
+plt.close()
 
-            for container in ax.containers:
-                ax.bar_label(container, fmt='%d', padding=3)
+# 7. Jain's Fairness (Waiting) - barras com rótulos
+fairness = []
+for alg in df["Algoritmo"].unique():
+    w = df[df["Algoritmo"] == alg]["WaitingTime"].values
+    if len(w) > 0:
+        idx = w.sum()**2 / (len(w) * (w**2).sum())
+        fairness.append({"Algoritmo": alg, "Jain_Waiting": idx})
+fair_df = pd.DataFrame(fairness)
+ax = fair_df.plot(kind="bar", x="Algoritmo", y="Jain_Waiting", figsize=(6,4), legend=False)
+plt.title("Jain's Fairness (Waiting)")
+plt.ylabel("Fairness Index")
+for container in ax.containers:
+    ax.bar_label(container, fmt='%.2f', padding=3)
+plt.tight_layout()
+plt.savefig(os.path.join(GRAFICOS_DIR, "jain_waiting.png"))
+plt.close()
 
-            plt.savefig(os.path.join(GRAFICOS_DIR, f"grafico_{metrica.lower()}_input_{id}.png"))
-            plt.close()
+# 8. Média Ponderada Turnaround - barras com rótulos
+wm = df.groupby("Algoritmo").apply(lambda g: (g["Turnaround"]*g["Priority"]).sum()/g["Priority"].sum()).reset_index(name="W_Turnaround")
+ax = wm.plot(kind="bar", x="Algoritmo", y="W_Turnaround", figsize=(6,4), legend=False)
+plt.title("Média Ponderada Turnaround")
+plt.ylabel("Valor")
+for container in ax.containers:
+    ax.bar_label(container, fmt='%.2f', padding=3)
+plt.tight_layout()
+plt.savefig(os.path.join(GRAFICOS_DIR, "hist_ponderado_turnaround.png"))
+plt.close()
 
-    print("\n[✓] Relatório CSV e gráficos gerados com sucesso.")
-else:
-    # Se DataFrame vazio, apenas garantir que pasta de gráficos exista
-    os.makedirs(GRAFICOS_DIR, exist_ok=True)
-    print("\nNenhum dado para gerar relatórios.")
+# 9. Média Ponderada WaitingTime - barras com rótulos
+ww = df.groupby("Algoritmo").apply(lambda g: (g["WaitingTime"]*g["Priority"]).sum()/g["Priority"].sum()).reset_index(name="W_WaitingTime")
+ax = ww.plot(kind="bar", x="Algoritmo", y="W_WaitingTime", figsize=(6,4), legend=False)
+plt.title("Média Ponderada Waiting Time")
+plt.ylabel("Valor")
+for container in ax.containers:
+    ax.bar_label(container, fmt='%.2f', padding=3)
+plt.tight_layout()
+plt.savefig(os.path.join(GRAFICOS_DIR, "hist_ponderado_waiting.png"))
+plt.close()
+
+print("[✓] Todos os gráficos gerados.")
