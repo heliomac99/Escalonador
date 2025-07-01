@@ -13,7 +13,7 @@ typedef struct {
     int current_cycle;
     int remaining_cpu;
     int finished;
-
+    int priority;
     int start_time;
     int end_time;
     int total_cpu_time;
@@ -35,6 +35,7 @@ int main() {
         scanf("%d", &processes[i].cpu_time);
         scanf("%d", &processes[i].io_time);
         scanf("%d", &processes[i].cycles);
+        scanf("%d", &processes[i].priority);
 
         processes[i].current_cycle = 0;
         processes[i].remaining_cpu = processes[i].cpu_time;
@@ -110,6 +111,7 @@ int main() {
         printf("Waiting Time: %d\n", waiting);
         printf("Number of Preemptions: %d\n", processes[i].preemptions);
         printf("Cycles Completed: %d\n", processes[i].current_cycle);
+        printf("Priority: %d\n", processes[i].priority);
     }
 
     return 0;

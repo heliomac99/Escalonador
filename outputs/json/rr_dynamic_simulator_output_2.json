@@ -1,11 +1,11 @@
 [
-{"Process": 1, "Arrival": 0, "Start": 0, "End": 156, "Turnaround": 156, "CPU": 45, "IO": 6, "Waiting": 105, "Preemptions": 55, "Cycles": 3},
-{"Process": 2, "Arrival": 1, "Start": 5, "End": 41, "Turnaround": 40, "CPU": 12, "IO": 24, "Waiting": 4, "Preemptions": 5, "Cycles": 0},
-{"Process": 3, "Arrival": 2, "Start": 41, "End": 201, "Turnaround": 199, "CPU": 40, "IO": 10, "Waiting": 149, "Preemptions": 95, "Cycles": 5},
-{"Process": 4, "Arrival": 3, "Start": 46, "End": 224, "Turnaround": 221, "CPU": 20, "IO": 8, "Waiting": 193, "Preemptions": 130, "Cycles": 2},
-{"Process": 5, "Arrival": 4, "Start": 51, "End": 64, "Turnaround": 60, "CPU": 5, "IO": 8, "Waiting": 47, "Preemptions": 27, "Cycles": 0},
-{"Process": 6, "Arrival": 5, "Start": 64, "End": 252, "Turnaround": 247, "CPU": 18, "IO": 15, "Waiting": 214, "Preemptions": 145, "Cycles": 3},
-{"Process": 7, "Arrival": 6, "Start": 69, "End": 325, "Turnaround": 319, "CPU": 72, "IO": 6, "Waiting": 241, "Preemptions": 153, "Cycles": 6},
-{"Process": 8, "Arrival": 7, "Start": 74, "End": 100, "Turnaround": 93, "CPU": 8, "IO": 18, "Waiting": 67, "Preemptions": 37, "Cycles": 0},
-{"Process": 9, "Arrival": 8, "Start": 100, "End": 356, "Turnaround": 348, "CPU": 27, "IO": 9, "Waiting": 312, "Preemptions": 220, "Cycles": 3},
-{"Process": 10, "Arrival": 9, "Start": 105, "End": 375, "Turnaround": 366, "CPU": 14, "IO": 10, "Waiting": 342, "Preemptions": 239, "Cycles": 2}]
+{"Process": 1, "Arrival": 144, "Start": 164, "End": 10206, "Turnaround": 10062, "CPU": 385, "IO": 6642, "Waiting": 3035, "Preemptions": 3090, "Cycles": 0},
+{"Process": 2, "Arrival": 31, "Start": 34, "End": 69353, "Turnaround": 69322, "CPU": 12716, "IO": 12864, "Waiting": 43742, "Preemptions": 43810, "Cycles": 0},
+{"Process": 3, "Arrival": 199, "Start": 205, "End": 77326, "Turnaround": 77127, "CPU": 14532, "IO": 7912, "Waiting": 54683, "Preemptions": 54856, "Cycles": 0},
+{"Process": 4, "Arrival": 63, "Start": 65, "End": 9061, "Turnaround": 8998, "CPU": 855, "IO": 2506, "Waiting": 5637, "Preemptions": 5652, "Cycles": 0},
+{"Process": 5, "Arrival": 9, "Start": 9, "End": 97570, "Turnaround": 97561, "CPU": 18960, "IO": 2618, "Waiting": 75983, "Preemptions": 76103, "Cycles": 0},
+{"Process": 6, "Arrival": 118, "Start": 126, "End": 129269, "Turnaround": 129151, "CPU": 28314, "IO": 19897, "Waiting": 80940, "Preemptions": 81138, "Cycles": 0},
+{"Process": 7, "Arrival": 175, "Start": 186, "End": 36487, "Turnaround": 36312, "CPU": 2760, "IO": 15197, "Waiting": 18355, "Preemptions": 18447, "Cycles": 0},
+{"Process": 8, "Arrival": 88, "Start": 107, "End": 126787, "Turnaround": 126699, "CPU": 31556, "IO": 5600, "Waiting": 89543, "Preemptions": 89704, "Cycles": 0},
+{"Process": 9, "Arrival": 142, "Start": 147, "End": 20202, "Turnaround": 20060, "CPU": 1782, "IO": 4836, "Waiting": 13442, "Preemptions": 13469, "Cycles": 0},
+{"Process": 10, "Arrival": 56, "Start": 67, "End": 102106, "Turnaround": 102050, "CPU": 15290, "IO": 10764, "Waiting": 75996, "Preemptions": 76135, "Cycles": 0}]

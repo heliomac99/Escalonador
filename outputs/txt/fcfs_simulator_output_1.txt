@@ -3,115 +3,1177 @@ Process 1 - Arrival time:
 Process 1 - CPU time per cycle:
 Process 1 - I/O time per cycle:
 Process 1 - Number of cycles:
+Process 1 - Priority:
 Process 2 - Arrival time:
 Process 2 - CPU time per cycle:
 Process 2 - I/O time per cycle:
 Process 2 - Number of cycles:
+Process 2 - Priority:
 Process 3 - Arrival time:
 Process 3 - CPU time per cycle:
 Process 3 - I/O time per cycle:
 Process 3 - Number of cycles:
+Process 3 - Priority:
 Process 4 - Arrival time:
 Process 4 - CPU time per cycle:
 Process 4 - I/O time per cycle:
 Process 4 - Number of cycles:
+Process 4 - Priority:
 Process 5 - Arrival time:
 Process 5 - CPU time per cycle:
 Process 5 - I/O time per cycle:
 Process 5 - Number of cycles:
+Process 5 - Priority:
 
 Starting FCFS simulation with Arrival Times
 
-[Time 0] Process 1 executing cycle 1 for 8 s
-[Time 8] Process 1 finished cycle 1, performing I/O for 3 s
-[Time 11] Process 1 executing cycle 2 for 8 s
-[Time 19] Process 1 finished cycle 2, performing I/O for 3 s
-[Time 22] Process 1 executing cycle 3 for 8 s
-[Time 30] Process 1 finished cycle 3, performing I/O for 3 s
-[Time 33] Process 1 executing cycle 4 for 8 s
-[Time 41] Process 1 finished cycle 4, performing I/O for 3 s
-[Time 44] Process 1 finished all cycles.
-[Time 44] Process 2 executing cycle 1 for 10 s
-[Time 54] Process 2 finished cycle 1, performing I/O for 2 s
-[Time 56] Process 2 executing cycle 2 for 10 s
-[Time 66] Process 2 finished cycle 2, performing I/O for 2 s
-[Time 68] Process 2 executing cycle 3 for 10 s
-[Time 78] Process 2 finished cycle 3, performing I/O for 2 s
-[Time 80] Process 2 finished all cycles.
-[Time 80] Process 3 executing cycle 1 for 2 s
-[Time 82] Process 3 finished cycle 1, performing I/O for 6 s
-[Time 88] Process 3 executing cycle 2 for 2 s
-[Time 90] Process 3 finished cycle 2, performing I/O for 6 s
-[Time 96] Process 3 executing cycle 3 for 2 s
-[Time 98] Process 3 finished cycle 3, performing I/O for 6 s
-[Time 104] Process 3 executing cycle 4 for 2 s
-[Time 106] Process 3 finished cycle 4, performing I/O for 6 s
-[Time 112] Process 3 executing cycle 5 for 2 s
-[Time 114] Process 3 finished cycle 5, performing I/O for 6 s
-[Time 120] Process 3 executing cycle 6 for 2 s
-[Time 122] Process 3 finished cycle 6, performing I/O for 6 s
-[Time 128] Process 3 finished all cycles.
-[Time 128] Process 4 executing cycle 1 for 5 s
-[Time 133] Process 4 finished cycle 1, performing I/O for 1 s
-[Time 134] Process 4 executing cycle 2 for 5 s
-[Time 139] Process 4 finished cycle 2, performing I/O for 1 s
-[Time 140] Process 4 finished all cycles.
-[Time 140] Process 5 executing cycle 1 for 12 s
-[Time 152] Process 5 finished cycle 1, performing I/O for 4 s
-[Time 156] Process 5 executing cycle 2 for 12 s
-[Time 168] Process 5 finished cycle 2, performing I/O for 4 s
-[Time 172] Process 5 finished all cycles.
+[Time 12] Process 3 executing cycle 1 for 88 s
+[Time 100] Process 3 finished cycle 1, performing I/O for 143 s
+[Time 243] Process 3 executing cycle 2 for 88 s
+[Time 331] Process 3 finished cycle 2, performing I/O for 143 s
+[Time 474] Process 3 executing cycle 3 for 88 s
+[Time 562] Process 3 finished cycle 3, performing I/O for 143 s
+[Time 705] Process 3 executing cycle 4 for 88 s
+[Time 793] Process 3 finished cycle 4, performing I/O for 143 s
+[Time 936] Process 3 executing cycle 5 for 88 s
+[Time 1024] Process 3 finished cycle 5, performing I/O for 143 s
+[Time 1167] Process 3 executing cycle 6 for 88 s
+[Time 1255] Process 3 finished cycle 6, performing I/O for 143 s
+[Time 1398] Process 3 executing cycle 7 for 88 s
+[Time 1486] Process 3 finished cycle 7, performing I/O for 143 s
+[Time 1629] Process 3 executing cycle 8 for 88 s
+[Time 1717] Process 3 finished cycle 8, performing I/O for 143 s
+[Time 1860] Process 3 executing cycle 9 for 88 s
+[Time 1948] Process 3 finished cycle 9, performing I/O for 143 s
+[Time 2091] Process 3 executing cycle 10 for 88 s
+[Time 2179] Process 3 finished cycle 10, performing I/O for 143 s
+[Time 2322] Process 3 executing cycle 11 for 88 s
+[Time 2410] Process 3 finished cycle 11, performing I/O for 143 s
+[Time 2553] Process 3 executing cycle 12 for 88 s
+[Time 2641] Process 3 finished cycle 12, performing I/O for 143 s
+[Time 2784] Process 3 executing cycle 13 for 88 s
+[Time 2872] Process 3 finished cycle 13, performing I/O for 143 s
+[Time 3015] Process 3 executing cycle 14 for 88 s
+[Time 3103] Process 3 finished cycle 14, performing I/O for 143 s
+[Time 3246] Process 3 executing cycle 15 for 88 s
+[Time 3334] Process 3 finished cycle 15, performing I/O for 143 s
+[Time 3477] Process 3 executing cycle 16 for 88 s
+[Time 3565] Process 3 finished cycle 16, performing I/O for 143 s
+[Time 3708] Process 3 executing cycle 17 for 88 s
+[Time 3796] Process 3 finished cycle 17, performing I/O for 143 s
+[Time 3939] Process 3 executing cycle 18 for 88 s
+[Time 4027] Process 3 finished cycle 18, performing I/O for 143 s
+[Time 4170] Process 3 executing cycle 19 for 88 s
+[Time 4258] Process 3 finished cycle 19, performing I/O for 143 s
+[Time 4401] Process 3 executing cycle 20 for 88 s
+[Time 4489] Process 3 finished cycle 20, performing I/O for 143 s
+[Time 4632] Process 3 executing cycle 21 for 88 s
+[Time 4720] Process 3 finished cycle 21, performing I/O for 143 s
+[Time 4863] Process 3 executing cycle 22 for 88 s
+[Time 4951] Process 3 finished cycle 22, performing I/O for 143 s
+[Time 5094] Process 3 executing cycle 23 for 88 s
+[Time 5182] Process 3 finished cycle 23, performing I/O for 143 s
+[Time 5325] Process 3 executing cycle 24 for 88 s
+[Time 5413] Process 3 finished cycle 24, performing I/O for 143 s
+[Time 5556] Process 3 executing cycle 25 for 88 s
+[Time 5644] Process 3 finished cycle 25, performing I/O for 143 s
+[Time 5787] Process 3 executing cycle 26 for 88 s
+[Time 5875] Process 3 finished cycle 26, performing I/O for 143 s
+[Time 6018] Process 3 executing cycle 27 for 88 s
+[Time 6106] Process 3 finished cycle 27, performing I/O for 143 s
+[Time 6249] Process 3 executing cycle 28 for 88 s
+[Time 6337] Process 3 finished cycle 28, performing I/O for 143 s
+[Time 6480] Process 3 executing cycle 29 for 88 s
+[Time 6568] Process 3 finished cycle 29, performing I/O for 143 s
+[Time 6711] Process 3 executing cycle 30 for 88 s
+[Time 6799] Process 3 finished cycle 30, performing I/O for 143 s
+[Time 6942] Process 3 executing cycle 31 for 88 s
+[Time 7030] Process 3 finished cycle 31, performing I/O for 143 s
+[Time 7173] Process 3 executing cycle 32 for 88 s
+[Time 7261] Process 3 finished cycle 32, performing I/O for 143 s
+[Time 7404] Process 3 executing cycle 33 for 88 s
+[Time 7492] Process 3 finished cycle 33, performing I/O for 143 s
+[Time 7635] Process 3 executing cycle 34 for 88 s
+[Time 7723] Process 3 finished cycle 34, performing I/O for 143 s
+[Time 7866] Process 3 executing cycle 35 for 88 s
+[Time 7954] Process 3 finished cycle 35, performing I/O for 143 s
+[Time 8097] Process 3 executing cycle 36 for 88 s
+[Time 8185] Process 3 finished cycle 36, performing I/O for 143 s
+[Time 8328] Process 3 executing cycle 37 for 88 s
+[Time 8416] Process 3 finished cycle 37, performing I/O for 143 s
+[Time 8559] Process 3 executing cycle 38 for 88 s
+[Time 8647] Process 3 finished cycle 38, performing I/O for 143 s
+[Time 8790] Process 3 executing cycle 39 for 88 s
+[Time 8878] Process 3 finished cycle 39, performing I/O for 143 s
+[Time 9021] Process 3 executing cycle 40 for 88 s
+[Time 9109] Process 3 finished cycle 40, performing I/O for 143 s
+[Time 9252] Process 3 executing cycle 41 for 88 s
+[Time 9340] Process 3 finished cycle 41, performing I/O for 143 s
+[Time 9483] Process 3 executing cycle 42 for 88 s
+[Time 9571] Process 3 finished cycle 42, performing I/O for 143 s
+[Time 9714] Process 3 executing cycle 43 for 88 s
+[Time 9802] Process 3 finished cycle 43, performing I/O for 143 s
+[Time 9945] Process 3 executing cycle 44 for 88 s
+[Time 10033] Process 3 finished cycle 44, performing I/O for 143 s
+[Time 10176] Process 3 executing cycle 45 for 88 s
+[Time 10264] Process 3 finished cycle 45, performing I/O for 143 s
+[Time 10407] Process 3 executing cycle 46 for 88 s
+[Time 10495] Process 3 finished cycle 46, performing I/O for 143 s
+[Time 10638] Process 3 executing cycle 47 for 88 s
+[Time 10726] Process 3 finished cycle 47, performing I/O for 143 s
+[Time 10869] Process 3 executing cycle 48 for 88 s
+[Time 10957] Process 3 finished cycle 48, performing I/O for 143 s
+[Time 11100] Process 3 executing cycle 49 for 88 s
+[Time 11188] Process 3 finished cycle 49, performing I/O for 143 s
+[Time 11331] Process 3 executing cycle 50 for 88 s
+[Time 11419] Process 3 finished cycle 50, performing I/O for 143 s
+[Time 11562] Process 3 executing cycle 51 for 88 s
+[Time 11650] Process 3 finished cycle 51, performing I/O for 143 s
+[Time 11793] Process 3 executing cycle 52 for 88 s
+[Time 11881] Process 3 finished cycle 52, performing I/O for 143 s
+[Time 12024] Process 3 executing cycle 53 for 88 s
+[Time 12112] Process 3 finished cycle 53, performing I/O for 143 s
+[Time 12255] Process 3 executing cycle 54 for 88 s
+[Time 12343] Process 3 finished cycle 54, performing I/O for 143 s
+[Time 12486] Process 3 executing cycle 55 for 88 s
+[Time 12574] Process 3 finished cycle 55, performing I/O for 143 s
+[Time 12717] Process 3 executing cycle 56 for 88 s
+[Time 12805] Process 3 finished cycle 56, performing I/O for 143 s
+[Time 12948] Process 3 executing cycle 57 for 88 s
+[Time 13036] Process 3 finished cycle 57, performing I/O for 143 s
+[Time 13179] Process 3 executing cycle 58 for 88 s
+[Time 13267] Process 3 finished cycle 58, performing I/O for 143 s
+[Time 13410] Process 3 executing cycle 59 for 88 s
+[Time 13498] Process 3 finished cycle 59, performing I/O for 143 s
+[Time 13641] Process 3 executing cycle 60 for 88 s
+[Time 13729] Process 3 finished cycle 60, performing I/O for 143 s
+[Time 13872] Process 3 executing cycle 61 for 88 s
+[Time 13960] Process 3 finished cycle 61, performing I/O for 143 s
+[Time 14103] Process 3 executing cycle 62 for 88 s
+[Time 14191] Process 3 finished cycle 62, performing I/O for 143 s
+[Time 14334] Process 3 executing cycle 63 for 88 s
+[Time 14422] Process 3 finished cycle 63, performing I/O for 143 s
+[Time 14565] Process 3 executing cycle 64 for 88 s
+[Time 14653] Process 3 finished cycle 64, performing I/O for 143 s
+[Time 14796] Process 3 executing cycle 65 for 88 s
+[Time 14884] Process 3 finished cycle 65, performing I/O for 143 s
+[Time 15027] Process 3 executing cycle 66 for 88 s
+[Time 15115] Process 3 finished cycle 66, performing I/O for 143 s
+[Time 15258] Process 3 executing cycle 67 for 88 s
+[Time 15346] Process 3 finished cycle 67, performing I/O for 143 s
+[Time 15489] Process 3 executing cycle 68 for 88 s
+[Time 15577] Process 3 finished cycle 68, performing I/O for 143 s
+[Time 15720] Process 3 executing cycle 69 for 88 s
+[Time 15808] Process 3 finished cycle 69, performing I/O for 143 s
+[Time 15951] Process 3 executing cycle 70 for 88 s
+[Time 16039] Process 3 finished cycle 70, performing I/O for 143 s
+[Time 16182] Process 3 executing cycle 71 for 88 s
+[Time 16270] Process 3 finished cycle 71, performing I/O for 143 s
+[Time 16413] Process 3 executing cycle 72 for 88 s
+[Time 16501] Process 3 finished cycle 72, performing I/O for 143 s
+[Time 16644] Process 3 executing cycle 73 for 88 s
+[Time 16732] Process 3 finished cycle 73, performing I/O for 143 s
+[Time 16875] Process 3 executing cycle 74 for 88 s
+[Time 16963] Process 3 finished cycle 74, performing I/O for 143 s
+[Time 17106] Process 3 executing cycle 75 for 88 s
+[Time 17194] Process 3 finished cycle 75, performing I/O for 143 s
+[Time 17337] Process 3 executing cycle 76 for 88 s
+[Time 17425] Process 3 finished cycle 76, performing I/O for 143 s
+[Time 17568] Process 3 executing cycle 77 for 88 s
+[Time 17656] Process 3 finished cycle 77, performing I/O for 143 s
+[Time 17799] Process 3 executing cycle 78 for 88 s
+[Time 17887] Process 3 finished cycle 78, performing I/O for 143 s
+[Time 18030] Process 3 executing cycle 79 for 88 s
+[Time 18118] Process 3 finished cycle 79, performing I/O for 143 s
+[Time 18261] Process 3 executing cycle 80 for 88 s
+[Time 18349] Process 3 finished cycle 80, performing I/O for 143 s
+[Time 18492] Process 3 executing cycle 81 for 88 s
+[Time 18580] Process 3 finished cycle 81, performing I/O for 143 s
+[Time 18723] Process 3 executing cycle 82 for 88 s
+[Time 18811] Process 3 finished cycle 82, performing I/O for 143 s
+[Time 18954] Process 3 executing cycle 83 for 88 s
+[Time 19042] Process 3 finished cycle 83, performing I/O for 143 s
+[Time 19185] Process 3 executing cycle 84 for 88 s
+[Time 19273] Process 3 finished cycle 84, performing I/O for 143 s
+[Time 19416] Process 3 executing cycle 85 for 88 s
+[Time 19504] Process 3 finished cycle 85, performing I/O for 143 s
+[Time 19647] Process 3 executing cycle 86 for 88 s
+[Time 19735] Process 3 finished cycle 86, performing I/O for 143 s
+[Time 19878] Process 3 executing cycle 87 for 88 s
+[Time 19966] Process 3 finished cycle 87, performing I/O for 143 s
+[Time 20109] Process 3 executing cycle 88 for 88 s
+[Time 20197] Process 3 finished cycle 88, performing I/O for 143 s
+[Time 20340] Process 3 executing cycle 89 for 88 s
+[Time 20428] Process 3 finished cycle 89, performing I/O for 143 s
+[Time 20571] Process 3 executing cycle 90 for 88 s
+[Time 20659] Process 3 finished cycle 90, performing I/O for 143 s
+[Time 20802] Process 3 executing cycle 91 for 88 s
+[Time 20890] Process 3 finished cycle 91, performing I/O for 143 s
+[Time 21033] Process 3 executing cycle 92 for 88 s
+[Time 21121] Process 3 finished cycle 92, performing I/O for 143 s
+[Time 21264] Process 3 executing cycle 93 for 88 s
+[Time 21352] Process 3 finished cycle 93, performing I/O for 143 s
+[Time 21495] Process 3 executing cycle 94 for 88 s
+[Time 21583] Process 3 finished cycle 94, performing I/O for 143 s
+[Time 21726] Process 3 executing cycle 95 for 88 s
+[Time 21814] Process 3 finished cycle 95, performing I/O for 143 s
+[Time 21957] Process 3 executing cycle 96 for 88 s
+[Time 22045] Process 3 finished cycle 96, performing I/O for 143 s
+[Time 22188] Process 3 executing cycle 97 for 88 s
+[Time 22276] Process 3 finished cycle 97, performing I/O for 143 s
+[Time 22419] Process 3 executing cycle 98 for 88 s
+[Time 22507] Process 3 finished cycle 98, performing I/O for 143 s
+[Time 22650] Process 3 executing cycle 99 for 88 s
+[Time 22738] Process 3 finished cycle 99, performing I/O for 143 s
+[Time 22881] Process 3 executing cycle 100 for 88 s
+[Time 22969] Process 3 finished cycle 100, performing I/O for 143 s
+[Time 23112] Process 3 executing cycle 101 for 88 s
+[Time 23200] Process 3 finished cycle 101, performing I/O for 143 s
+[Time 23343] Process 3 executing cycle 102 for 88 s
+[Time 23431] Process 3 finished cycle 102, performing I/O for 143 s
+[Time 23574] Process 3 executing cycle 103 for 88 s
+[Time 23662] Process 3 finished cycle 103, performing I/O for 143 s
+[Time 23805] Process 3 executing cycle 104 for 88 s
+[Time 23893] Process 3 finished cycle 104, performing I/O for 143 s
+[Time 24036] Process 3 executing cycle 105 for 88 s
+[Time 24124] Process 3 finished cycle 105, performing I/O for 143 s
+[Time 24267] Process 3 executing cycle 106 for 88 s
+[Time 24355] Process 3 finished cycle 106, performing I/O for 143 s
+[Time 24498] Process 3 executing cycle 107 for 88 s
+[Time 24586] Process 3 finished cycle 107, performing I/O for 143 s
+[Time 24729] Process 3 executing cycle 108 for 88 s
+[Time 24817] Process 3 finished cycle 108, performing I/O for 143 s
+[Time 24960] Process 3 executing cycle 109 for 88 s
+[Time 25048] Process 3 finished cycle 109, performing I/O for 143 s
+[Time 25191] Process 3 executing cycle 110 for 88 s
+[Time 25279] Process 3 finished cycle 110, performing I/O for 143 s
+[Time 25422] Process 3 executing cycle 111 for 88 s
+[Time 25510] Process 3 finished cycle 111, performing I/O for 143 s
+[Time 25653] Process 3 executing cycle 112 for 88 s
+[Time 25741] Process 3 finished cycle 112, performing I/O for 143 s
+[Time 25884] Process 3 executing cycle 113 for 88 s
+[Time 25972] Process 3 finished cycle 113, performing I/O for 143 s
+[Time 26115] Process 3 executing cycle 114 for 88 s
+[Time 26203] Process 3 finished cycle 114, performing I/O for 143 s
+[Time 26346] Process 3 executing cycle 115 for 88 s
+[Time 26434] Process 3 finished cycle 115, performing I/O for 143 s
+[Time 26577] Process 3 executing cycle 116 for 88 s
+[Time 26665] Process 3 finished cycle 116, performing I/O for 143 s
+[Time 26808] Process 3 executing cycle 117 for 88 s
+[Time 26896] Process 3 finished cycle 117, performing I/O for 143 s
+[Time 27039] Process 3 finished all cycles.
+[Time 27039] Process 5 executing cycle 1 for 134 s
+[Time 27173] Process 5 finished cycle 1, performing I/O for 96 s
+[Time 27269] Process 5 executing cycle 2 for 134 s
+[Time 27403] Process 5 finished cycle 2, performing I/O for 96 s
+[Time 27499] Process 5 executing cycle 3 for 134 s
+[Time 27633] Process 5 finished cycle 3, performing I/O for 96 s
+[Time 27729] Process 5 executing cycle 4 for 134 s
+[Time 27863] Process 5 finished cycle 4, performing I/O for 96 s
+[Time 27959] Process 5 executing cycle 5 for 134 s
+[Time 28093] Process 5 finished cycle 5, performing I/O for 96 s
+[Time 28189] Process 5 executing cycle 6 for 134 s
+[Time 28323] Process 5 finished cycle 6, performing I/O for 96 s
+[Time 28419] Process 5 executing cycle 7 for 134 s
+[Time 28553] Process 5 finished cycle 7, performing I/O for 96 s
+[Time 28649] Process 5 executing cycle 8 for 134 s
+[Time 28783] Process 5 finished cycle 8, performing I/O for 96 s
+[Time 28879] Process 5 executing cycle 9 for 134 s
+[Time 29013] Process 5 finished cycle 9, performing I/O for 96 s
+[Time 29109] Process 5 executing cycle 10 for 134 s
+[Time 29243] Process 5 finished cycle 10, performing I/O for 96 s
+[Time 29339] Process 5 finished all cycles.
+[Time 29339] Process 2 executing cycle 1 for 176 s
+[Time 29515] Process 2 finished cycle 1, performing I/O for 57 s
+[Time 29572] Process 2 executing cycle 2 for 176 s
+[Time 29748] Process 2 finished cycle 2, performing I/O for 57 s
+[Time 29805] Process 2 executing cycle 3 for 176 s
+[Time 29981] Process 2 finished cycle 3, performing I/O for 57 s
+[Time 30038] Process 2 executing cycle 4 for 176 s
+[Time 30214] Process 2 finished cycle 4, performing I/O for 57 s
+[Time 30271] Process 2 executing cycle 5 for 176 s
+[Time 30447] Process 2 finished cycle 5, performing I/O for 57 s
+[Time 30504] Process 2 executing cycle 6 for 176 s
+[Time 30680] Process 2 finished cycle 6, performing I/O for 57 s
+[Time 30737] Process 2 executing cycle 7 for 176 s
+[Time 30913] Process 2 finished cycle 7, performing I/O for 57 s
+[Time 30970] Process 2 executing cycle 8 for 176 s
+[Time 31146] Process 2 finished cycle 8, performing I/O for 57 s
+[Time 31203] Process 2 executing cycle 9 for 176 s
+[Time 31379] Process 2 finished cycle 9, performing I/O for 57 s
+[Time 31436] Process 2 executing cycle 10 for 176 s
+[Time 31612] Process 2 finished cycle 10, performing I/O for 57 s
+[Time 31669] Process 2 executing cycle 11 for 176 s
+[Time 31845] Process 2 finished cycle 11, performing I/O for 57 s
+[Time 31902] Process 2 executing cycle 12 for 176 s
+[Time 32078] Process 2 finished cycle 12, performing I/O for 57 s
+[Time 32135] Process 2 executing cycle 13 for 176 s
+[Time 32311] Process 2 finished cycle 13, performing I/O for 57 s
+[Time 32368] Process 2 executing cycle 14 for 176 s
+[Time 32544] Process 2 finished cycle 14, performing I/O for 57 s
+[Time 32601] Process 2 executing cycle 15 for 176 s
+[Time 32777] Process 2 finished cycle 15, performing I/O for 57 s
+[Time 32834] Process 2 executing cycle 16 for 176 s
+[Time 33010] Process 2 finished cycle 16, performing I/O for 57 s
+[Time 33067] Process 2 executing cycle 17 for 176 s
+[Time 33243] Process 2 finished cycle 17, performing I/O for 57 s
+[Time 33300] Process 2 executing cycle 18 for 176 s
+[Time 33476] Process 2 finished cycle 18, performing I/O for 57 s
+[Time 33533] Process 2 executing cycle 19 for 176 s
+[Time 33709] Process 2 finished cycle 19, performing I/O for 57 s
+[Time 33766] Process 2 executing cycle 20 for 176 s
+[Time 33942] Process 2 finished cycle 20, performing I/O for 57 s
+[Time 33999] Process 2 executing cycle 21 for 176 s
+[Time 34175] Process 2 finished cycle 21, performing I/O for 57 s
+[Time 34232] Process 2 executing cycle 22 for 176 s
+[Time 34408] Process 2 finished cycle 22, performing I/O for 57 s
+[Time 34465] Process 2 executing cycle 23 for 176 s
+[Time 34641] Process 2 finished cycle 23, performing I/O for 57 s
+[Time 34698] Process 2 executing cycle 24 for 176 s
+[Time 34874] Process 2 finished cycle 24, performing I/O for 57 s
+[Time 34931] Process 2 executing cycle 25 for 176 s
+[Time 35107] Process 2 finished cycle 25, performing I/O for 57 s
+[Time 35164] Process 2 executing cycle 26 for 176 s
+[Time 35340] Process 2 finished cycle 26, performing I/O for 57 s
+[Time 35397] Process 2 executing cycle 27 for 176 s
+[Time 35573] Process 2 finished cycle 27, performing I/O for 57 s
+[Time 35630] Process 2 executing cycle 28 for 176 s
+[Time 35806] Process 2 finished cycle 28, performing I/O for 57 s
+[Time 35863] Process 2 executing cycle 29 for 176 s
+[Time 36039] Process 2 finished cycle 29, performing I/O for 57 s
+[Time 36096] Process 2 executing cycle 30 for 176 s
+[Time 36272] Process 2 finished cycle 30, performing I/O for 57 s
+[Time 36329] Process 2 executing cycle 31 for 176 s
+[Time 36505] Process 2 finished cycle 31, performing I/O for 57 s
+[Time 36562] Process 2 executing cycle 32 for 176 s
+[Time 36738] Process 2 finished cycle 32, performing I/O for 57 s
+[Time 36795] Process 2 executing cycle 33 for 176 s
+[Time 36971] Process 2 finished cycle 33, performing I/O for 57 s
+[Time 37028] Process 2 executing cycle 34 for 176 s
+[Time 37204] Process 2 finished cycle 34, performing I/O for 57 s
+[Time 37261] Process 2 executing cycle 35 for 176 s
+[Time 37437] Process 2 finished cycle 35, performing I/O for 57 s
+[Time 37494] Process 2 executing cycle 36 for 176 s
+[Time 37670] Process 2 finished cycle 36, performing I/O for 57 s
+[Time 37727] Process 2 executing cycle 37 for 176 s
+[Time 37903] Process 2 finished cycle 37, performing I/O for 57 s
+[Time 37960] Process 2 executing cycle 38 for 176 s
+[Time 38136] Process 2 finished cycle 38, performing I/O for 57 s
+[Time 38193] Process 2 executing cycle 39 for 176 s
+[Time 38369] Process 2 finished cycle 39, performing I/O for 57 s
+[Time 38426] Process 2 executing cycle 40 for 176 s
+[Time 38602] Process 2 finished cycle 40, performing I/O for 57 s
+[Time 38659] Process 2 executing cycle 41 for 176 s
+[Time 38835] Process 2 finished cycle 41, performing I/O for 57 s
+[Time 38892] Process 2 executing cycle 42 for 176 s
+[Time 39068] Process 2 finished cycle 42, performing I/O for 57 s
+[Time 39125] Process 2 executing cycle 43 for 176 s
+[Time 39301] Process 2 finished cycle 43, performing I/O for 57 s
+[Time 39358] Process 2 executing cycle 44 for 176 s
+[Time 39534] Process 2 finished cycle 44, performing I/O for 57 s
+[Time 39591] Process 2 executing cycle 45 for 176 s
+[Time 39767] Process 2 finished cycle 45, performing I/O for 57 s
+[Time 39824] Process 2 executing cycle 46 for 176 s
+[Time 40000] Process 2 finished cycle 46, performing I/O for 57 s
+[Time 40057] Process 2 executing cycle 47 for 176 s
+[Time 40233] Process 2 finished cycle 47, performing I/O for 57 s
+[Time 40290] Process 2 executing cycle 48 for 176 s
+[Time 40466] Process 2 finished cycle 48, performing I/O for 57 s
+[Time 40523] Process 2 executing cycle 49 for 176 s
+[Time 40699] Process 2 finished cycle 49, performing I/O for 57 s
+[Time 40756] Process 2 executing cycle 50 for 176 s
+[Time 40932] Process 2 finished cycle 50, performing I/O for 57 s
+[Time 40989] Process 2 executing cycle 51 for 176 s
+[Time 41165] Process 2 finished cycle 51, performing I/O for 57 s
+[Time 41222] Process 2 executing cycle 52 for 176 s
+[Time 41398] Process 2 finished cycle 52, performing I/O for 57 s
+[Time 41455] Process 2 executing cycle 53 for 176 s
+[Time 41631] Process 2 finished cycle 53, performing I/O for 57 s
+[Time 41688] Process 2 executing cycle 54 for 176 s
+[Time 41864] Process 2 finished cycle 54, performing I/O for 57 s
+[Time 41921] Process 2 executing cycle 55 for 176 s
+[Time 42097] Process 2 finished cycle 55, performing I/O for 57 s
+[Time 42154] Process 2 executing cycle 56 for 176 s
+[Time 42330] Process 2 finished cycle 56, performing I/O for 57 s
+[Time 42387] Process 2 executing cycle 57 for 176 s
+[Time 42563] Process 2 finished cycle 57, performing I/O for 57 s
+[Time 42620] Process 2 executing cycle 58 for 176 s
+[Time 42796] Process 2 finished cycle 58, performing I/O for 57 s
+[Time 42853] Process 2 executing cycle 59 for 176 s
+[Time 43029] Process 2 finished cycle 59, performing I/O for 57 s
+[Time 43086] Process 2 executing cycle 60 for 176 s
+[Time 43262] Process 2 finished cycle 60, performing I/O for 57 s
+[Time 43319] Process 2 executing cycle 61 for 176 s
+[Time 43495] Process 2 finished cycle 61, performing I/O for 57 s
+[Time 43552] Process 2 executing cycle 62 for 176 s
+[Time 43728] Process 2 finished cycle 62, performing I/O for 57 s
+[Time 43785] Process 2 executing cycle 63 for 176 s
+[Time 43961] Process 2 finished cycle 63, performing I/O for 57 s
+[Time 44018] Process 2 executing cycle 64 for 176 s
+[Time 44194] Process 2 finished cycle 64, performing I/O for 57 s
+[Time 44251] Process 2 executing cycle 65 for 176 s
+[Time 44427] Process 2 finished cycle 65, performing I/O for 57 s
+[Time 44484] Process 2 executing cycle 66 for 176 s
+[Time 44660] Process 2 finished cycle 66, performing I/O for 57 s
+[Time 44717] Process 2 executing cycle 67 for 176 s
+[Time 44893] Process 2 finished cycle 67, performing I/O for 57 s
+[Time 44950] Process 2 executing cycle 68 for 176 s
+[Time 45126] Process 2 finished cycle 68, performing I/O for 57 s
+[Time 45183] Process 2 executing cycle 69 for 176 s
+[Time 45359] Process 2 finished cycle 69, performing I/O for 57 s
+[Time 45416] Process 2 executing cycle 70 for 176 s
+[Time 45592] Process 2 finished cycle 70, performing I/O for 57 s
+[Time 45649] Process 2 executing cycle 71 for 176 s
+[Time 45825] Process 2 finished cycle 71, performing I/O for 57 s
+[Time 45882] Process 2 executing cycle 72 for 176 s
+[Time 46058] Process 2 finished cycle 72, performing I/O for 57 s
+[Time 46115] Process 2 executing cycle 73 for 176 s
+[Time 46291] Process 2 finished cycle 73, performing I/O for 57 s
+[Time 46348] Process 2 executing cycle 74 for 176 s
+[Time 46524] Process 2 finished cycle 74, performing I/O for 57 s
+[Time 46581] Process 2 executing cycle 75 for 176 s
+[Time 46757] Process 2 finished cycle 75, performing I/O for 57 s
+[Time 46814] Process 2 executing cycle 76 for 176 s
+[Time 46990] Process 2 finished cycle 76, performing I/O for 57 s
+[Time 47047] Process 2 executing cycle 77 for 176 s
+[Time 47223] Process 2 finished cycle 77, performing I/O for 57 s
+[Time 47280] Process 2 executing cycle 78 for 176 s
+[Time 47456] Process 2 finished cycle 78, performing I/O for 57 s
+[Time 47513] Process 2 executing cycle 79 for 176 s
+[Time 47689] Process 2 finished cycle 79, performing I/O for 57 s
+[Time 47746] Process 2 executing cycle 80 for 176 s
+[Time 47922] Process 2 finished cycle 80, performing I/O for 57 s
+[Time 47979] Process 2 executing cycle 81 for 176 s
+[Time 48155] Process 2 finished cycle 81, performing I/O for 57 s
+[Time 48212] Process 2 executing cycle 82 for 176 s
+[Time 48388] Process 2 finished cycle 82, performing I/O for 57 s
+[Time 48445] Process 2 executing cycle 83 for 176 s
+[Time 48621] Process 2 finished cycle 83, performing I/O for 57 s
+[Time 48678] Process 2 executing cycle 84 for 176 s
+[Time 48854] Process 2 finished cycle 84, performing I/O for 57 s
+[Time 48911] Process 2 executing cycle 85 for 176 s
+[Time 49087] Process 2 finished cycle 85, performing I/O for 57 s
+[Time 49144] Process 2 executing cycle 86 for 176 s
+[Time 49320] Process 2 finished cycle 86, performing I/O for 57 s
+[Time 49377] Process 2 executing cycle 87 for 176 s
+[Time 49553] Process 2 finished cycle 87, performing I/O for 57 s
+[Time 49610] Process 2 executing cycle 88 for 176 s
+[Time 49786] Process 2 finished cycle 88, performing I/O for 57 s
+[Time 49843] Process 2 executing cycle 89 for 176 s
+[Time 50019] Process 2 finished cycle 89, performing I/O for 57 s
+[Time 50076] Process 2 executing cycle 90 for 176 s
+[Time 50252] Process 2 finished cycle 90, performing I/O for 57 s
+[Time 50309] Process 2 executing cycle 91 for 176 s
+[Time 50485] Process 2 finished cycle 91, performing I/O for 57 s
+[Time 50542] Process 2 executing cycle 92 for 176 s
+[Time 50718] Process 2 finished cycle 92, performing I/O for 57 s
+[Time 50775] Process 2 executing cycle 93 for 176 s
+[Time 50951] Process 2 finished cycle 93, performing I/O for 57 s
+[Time 51008] Process 2 executing cycle 94 for 176 s
+[Time 51184] Process 2 finished cycle 94, performing I/O for 57 s
+[Time 51241] Process 2 executing cycle 95 for 176 s
+[Time 51417] Process 2 finished cycle 95, performing I/O for 57 s
+[Time 51474] Process 2 executing cycle 96 for 176 s
+[Time 51650] Process 2 finished cycle 96, performing I/O for 57 s
+[Time 51707] Process 2 executing cycle 97 for 176 s
+[Time 51883] Process 2 finished cycle 97, performing I/O for 57 s
+[Time 51940] Process 2 executing cycle 98 for 176 s
+[Time 52116] Process 2 finished cycle 98, performing I/O for 57 s
+[Time 52173] Process 2 executing cycle 99 for 176 s
+[Time 52349] Process 2 finished cycle 99, performing I/O for 57 s
+[Time 52406] Process 2 executing cycle 100 for 176 s
+[Time 52582] Process 2 finished cycle 100, performing I/O for 57 s
+[Time 52639] Process 2 executing cycle 101 for 176 s
+[Time 52815] Process 2 finished cycle 101, performing I/O for 57 s
+[Time 52872] Process 2 executing cycle 102 for 176 s
+[Time 53048] Process 2 finished cycle 102, performing I/O for 57 s
+[Time 53105] Process 2 executing cycle 103 for 176 s
+[Time 53281] Process 2 finished cycle 103, performing I/O for 57 s
+[Time 53338] Process 2 executing cycle 104 for 176 s
+[Time 53514] Process 2 finished cycle 104, performing I/O for 57 s
+[Time 53571] Process 2 executing cycle 105 for 176 s
+[Time 53747] Process 2 finished cycle 105, performing I/O for 57 s
+[Time 53804] Process 2 executing cycle 106 for 176 s
+[Time 53980] Process 2 finished cycle 106, performing I/O for 57 s
+[Time 54037] Process 2 executing cycle 107 for 176 s
+[Time 54213] Process 2 finished cycle 107, performing I/O for 57 s
+[Time 54270] Process 2 executing cycle 108 for 176 s
+[Time 54446] Process 2 finished cycle 108, performing I/O for 57 s
+[Time 54503] Process 2 executing cycle 109 for 176 s
+[Time 54679] Process 2 finished cycle 109, performing I/O for 57 s
+[Time 54736] Process 2 executing cycle 110 for 176 s
+[Time 54912] Process 2 finished cycle 110, performing I/O for 57 s
+[Time 54969] Process 2 executing cycle 111 for 176 s
+[Time 55145] Process 2 finished cycle 111, performing I/O for 57 s
+[Time 55202] Process 2 executing cycle 112 for 176 s
+[Time 55378] Process 2 finished cycle 112, performing I/O for 57 s
+[Time 55435] Process 2 executing cycle 113 for 176 s
+[Time 55611] Process 2 finished cycle 113, performing I/O for 57 s
+[Time 55668] Process 2 executing cycle 114 for 176 s
+[Time 55844] Process 2 finished cycle 114, performing I/O for 57 s
+[Time 55901] Process 2 executing cycle 115 for 176 s
+[Time 56077] Process 2 finished cycle 115, performing I/O for 57 s
+[Time 56134] Process 2 executing cycle 116 for 176 s
+[Time 56310] Process 2 finished cycle 116, performing I/O for 57 s
+[Time 56367] Process 2 executing cycle 117 for 176 s
+[Time 56543] Process 2 finished cycle 117, performing I/O for 57 s
+[Time 56600] Process 2 executing cycle 118 for 176 s
+[Time 56776] Process 2 finished cycle 118, performing I/O for 57 s
+[Time 56833] Process 2 executing cycle 119 for 176 s
+[Time 57009] Process 2 finished cycle 119, performing I/O for 57 s
+[Time 57066] Process 2 executing cycle 120 for 176 s
+[Time 57242] Process 2 finished cycle 120, performing I/O for 57 s
+[Time 57299] Process 2 executing cycle 121 for 176 s
+[Time 57475] Process 2 finished cycle 121, performing I/O for 57 s
+[Time 57532] Process 2 executing cycle 122 for 176 s
+[Time 57708] Process 2 finished cycle 122, performing I/O for 57 s
+[Time 57765] Process 2 executing cycle 123 for 176 s
+[Time 57941] Process 2 finished cycle 123, performing I/O for 57 s
+[Time 57998] Process 2 executing cycle 124 for 176 s
+[Time 58174] Process 2 finished cycle 124, performing I/O for 57 s
+[Time 58231] Process 2 executing cycle 125 for 176 s
+[Time 58407] Process 2 finished cycle 125, performing I/O for 57 s
+[Time 58464] Process 2 executing cycle 126 for 176 s
+[Time 58640] Process 2 finished cycle 126, performing I/O for 57 s
+[Time 58697] Process 2 executing cycle 127 for 176 s
+[Time 58873] Process 2 finished cycle 127, performing I/O for 57 s
+[Time 58930] Process 2 executing cycle 128 for 176 s
+[Time 59106] Process 2 finished cycle 128, performing I/O for 57 s
+[Time 59163] Process 2 executing cycle 129 for 176 s
+[Time 59339] Process 2 finished cycle 129, performing I/O for 57 s
+[Time 59396] Process 2 executing cycle 130 for 176 s
+[Time 59572] Process 2 finished cycle 130, performing I/O for 57 s
+[Time 59629] Process 2 executing cycle 131 for 176 s
+[Time 59805] Process 2 finished cycle 131, performing I/O for 57 s
+[Time 59862] Process 2 executing cycle 132 for 176 s
+[Time 60038] Process 2 finished cycle 132, performing I/O for 57 s
+[Time 60095] Process 2 executing cycle 133 for 176 s
+[Time 60271] Process 2 finished cycle 133, performing I/O for 57 s
+[Time 60328] Process 2 executing cycle 134 for 176 s
+[Time 60504] Process 2 finished cycle 134, performing I/O for 57 s
+[Time 60561] Process 2 executing cycle 135 for 176 s
+[Time 60737] Process 2 finished cycle 135, performing I/O for 57 s
+[Time 60794] Process 2 executing cycle 136 for 176 s
+[Time 60970] Process 2 finished cycle 136, performing I/O for 57 s
+[Time 61027] Process 2 executing cycle 137 for 176 s
+[Time 61203] Process 2 finished cycle 137, performing I/O for 57 s
+[Time 61260] Process 2 executing cycle 138 for 176 s
+[Time 61436] Process 2 finished cycle 138, performing I/O for 57 s
+[Time 61493] Process 2 executing cycle 139 for 176 s
+[Time 61669] Process 2 finished cycle 139, performing I/O for 57 s
+[Time 61726] Process 2 executing cycle 140 for 176 s
+[Time 61902] Process 2 finished cycle 140, performing I/O for 57 s
+[Time 61959] Process 2 executing cycle 141 for 176 s
+[Time 62135] Process 2 finished cycle 141, performing I/O for 57 s
+[Time 62192] Process 2 executing cycle 142 for 176 s
+[Time 62368] Process 2 finished cycle 142, performing I/O for 57 s
+[Time 62425] Process 2 executing cycle 143 for 176 s
+[Time 62601] Process 2 finished cycle 143, performing I/O for 57 s
+[Time 62658] Process 2 executing cycle 144 for 176 s
+[Time 62834] Process 2 finished cycle 144, performing I/O for 57 s
+[Time 62891] Process 2 executing cycle 145 for 176 s
+[Time 63067] Process 2 finished cycle 145, performing I/O for 57 s
+[Time 63124] Process 2 executing cycle 146 for 176 s
+[Time 63300] Process 2 finished cycle 146, performing I/O for 57 s
+[Time 63357] Process 2 executing cycle 147 for 176 s
+[Time 63533] Process 2 finished cycle 147, performing I/O for 57 s
+[Time 63590] Process 2 executing cycle 148 for 176 s
+[Time 63766] Process 2 finished cycle 148, performing I/O for 57 s
+[Time 63823] Process 2 executing cycle 149 for 176 s
+[Time 63999] Process 2 finished cycle 149, performing I/O for 57 s
+[Time 64056] Process 2 executing cycle 150 for 176 s
+[Time 64232] Process 2 finished cycle 150, performing I/O for 57 s
+[Time 64289] Process 2 executing cycle 151 for 176 s
+[Time 64465] Process 2 finished cycle 151, performing I/O for 57 s
+[Time 64522] Process 2 executing cycle 152 for 176 s
+[Time 64698] Process 2 finished cycle 152, performing I/O for 57 s
+[Time 64755] Process 2 executing cycle 153 for 176 s
+[Time 64931] Process 2 finished cycle 153, performing I/O for 57 s
+[Time 64988] Process 2 executing cycle 154 for 176 s
+[Time 65164] Process 2 finished cycle 154, performing I/O for 57 s
+[Time 65221] Process 2 executing cycle 155 for 176 s
+[Time 65397] Process 2 finished cycle 155, performing I/O for 57 s
+[Time 65454] Process 2 executing cycle 156 for 176 s
+[Time 65630] Process 2 finished cycle 156, performing I/O for 57 s
+[Time 65687] Process 2 executing cycle 157 for 176 s
+[Time 65863] Process 2 finished cycle 157, performing I/O for 57 s
+[Time 65920] Process 2 executing cycle 158 for 176 s
+[Time 66096] Process 2 finished cycle 158, performing I/O for 57 s
+[Time 66153] Process 2 executing cycle 159 for 176 s
+[Time 66329] Process 2 finished cycle 159, performing I/O for 57 s
+[Time 66386] Process 2 executing cycle 160 for 176 s
+[Time 66562] Process 2 finished cycle 160, performing I/O for 57 s
+[Time 66619] Process 2 executing cycle 161 for 176 s
+[Time 66795] Process 2 finished cycle 161, performing I/O for 57 s
+[Time 66852] Process 2 executing cycle 162 for 176 s
+[Time 67028] Process 2 finished cycle 162, performing I/O for 57 s
+[Time 67085] Process 2 executing cycle 163 for 176 s
+[Time 67261] Process 2 finished cycle 163, performing I/O for 57 s
+[Time 67318] Process 2 executing cycle 164 for 176 s
+[Time 67494] Process 2 finished cycle 164, performing I/O for 57 s
+[Time 67551] Process 2 executing cycle 165 for 176 s
+[Time 67727] Process 2 finished cycle 165, performing I/O for 57 s
+[Time 67784] Process 2 executing cycle 166 for 176 s
+[Time 67960] Process 2 finished cycle 166, performing I/O for 57 s
+[Time 68017] Process 2 executing cycle 167 for 176 s
+[Time 68193] Process 2 finished cycle 167, performing I/O for 57 s
+[Time 68250] Process 2 executing cycle 168 for 176 s
+[Time 68426] Process 2 finished cycle 168, performing I/O for 57 s
+[Time 68483] Process 2 executing cycle 169 for 176 s
+[Time 68659] Process 2 finished cycle 169, performing I/O for 57 s
+[Time 68716] Process 2 executing cycle 170 for 176 s
+[Time 68892] Process 2 finished cycle 170, performing I/O for 57 s
+[Time 68949] Process 2 executing cycle 171 for 176 s
+[Time 69125] Process 2 finished cycle 171, performing I/O for 57 s
+[Time 69182] Process 2 executing cycle 172 for 176 s
+[Time 69358] Process 2 finished cycle 172, performing I/O for 57 s
+[Time 69415] Process 2 executing cycle 173 for 176 s
+[Time 69591] Process 2 finished cycle 173, performing I/O for 57 s
+[Time 69648] Process 2 executing cycle 174 for 176 s
+[Time 69824] Process 2 finished cycle 174, performing I/O for 57 s
+[Time 69881] Process 2 executing cycle 175 for 176 s
+[Time 70057] Process 2 finished cycle 175, performing I/O for 57 s
+[Time 70114] Process 2 executing cycle 176 for 176 s
+[Time 70290] Process 2 finished cycle 176, performing I/O for 57 s
+[Time 70347] Process 2 executing cycle 177 for 176 s
+[Time 70523] Process 2 finished cycle 177, performing I/O for 57 s
+[Time 70580] Process 2 executing cycle 178 for 176 s
+[Time 70756] Process 2 finished cycle 178, performing I/O for 57 s
+[Time 70813] Process 2 executing cycle 179 for 176 s
+[Time 70989] Process 2 finished cycle 179, performing I/O for 57 s
+[Time 71046] Process 2 executing cycle 180 for 176 s
+[Time 71222] Process 2 finished cycle 180, performing I/O for 57 s
+[Time 71279] Process 2 executing cycle 181 for 176 s
+[Time 71455] Process 2 finished cycle 181, performing I/O for 57 s
+[Time 71512] Process 2 executing cycle 182 for 176 s
+[Time 71688] Process 2 finished cycle 182, performing I/O for 57 s
+[Time 71745] Process 2 executing cycle 183 for 176 s
+[Time 71921] Process 2 finished cycle 183, performing I/O for 57 s
+[Time 71978] Process 2 executing cycle 184 for 176 s
+[Time 72154] Process 2 finished cycle 184, performing I/O for 57 s
+[Time 72211] Process 2 executing cycle 185 for 176 s
+[Time 72387] Process 2 finished cycle 185, performing I/O for 57 s
+[Time 72444] Process 2 executing cycle 186 for 176 s
+[Time 72620] Process 2 finished cycle 186, performing I/O for 57 s
+[Time 72677] Process 2 executing cycle 187 for 176 s
+[Time 72853] Process 2 finished cycle 187, performing I/O for 57 s
+[Time 72910] Process 2 executing cycle 188 for 176 s
+[Time 73086] Process 2 finished cycle 188, performing I/O for 57 s
+[Time 73143] Process 2 executing cycle 189 for 176 s
+[Time 73319] Process 2 finished cycle 189, performing I/O for 57 s
+[Time 73376] Process 2 executing cycle 190 for 176 s
+[Time 73552] Process 2 finished cycle 190, performing I/O for 57 s
+[Time 73609] Process 2 executing cycle 191 for 176 s
+[Time 73785] Process 2 finished cycle 191, performing I/O for 57 s
+[Time 73842] Process 2 executing cycle 192 for 176 s
+[Time 74018] Process 2 finished cycle 192, performing I/O for 57 s
+[Time 74075] Process 2 executing cycle 193 for 176 s
+[Time 74251] Process 2 finished cycle 193, performing I/O for 57 s
+[Time 74308] Process 2 executing cycle 194 for 176 s
+[Time 74484] Process 2 finished cycle 194, performing I/O for 57 s
+[Time 74541] Process 2 executing cycle 195 for 176 s
+[Time 74717] Process 2 finished cycle 195, performing I/O for 57 s
+[Time 74774] Process 2 executing cycle 196 for 176 s
+[Time 74950] Process 2 finished cycle 196, performing I/O for 57 s
+[Time 75007] Process 2 executing cycle 197 for 176 s
+[Time 75183] Process 2 finished cycle 197, performing I/O for 57 s
+[Time 75240] Process 2 executing cycle 198 for 176 s
+[Time 75416] Process 2 finished cycle 198, performing I/O for 57 s
+[Time 75473] Process 2 executing cycle 199 for 176 s
+[Time 75649] Process 2 finished cycle 199, performing I/O for 57 s
+[Time 75706] Process 2 finished all cycles.
+[Time 75706] Process 1 executing cycle 1 for 42 s
+[Time 75748] Process 1 finished cycle 1, performing I/O for 158 s
+[Time 75906] Process 1 executing cycle 2 for 42 s
+[Time 75948] Process 1 finished cycle 2, performing I/O for 158 s
+[Time 76106] Process 1 executing cycle 3 for 42 s
+[Time 76148] Process 1 finished cycle 3, performing I/O for 158 s
+[Time 76306] Process 1 executing cycle 4 for 42 s
+[Time 76348] Process 1 finished cycle 4, performing I/O for 158 s
+[Time 76506] Process 1 executing cycle 5 for 42 s
+[Time 76548] Process 1 finished cycle 5, performing I/O for 158 s
+[Time 76706] Process 1 executing cycle 6 for 42 s
+[Time 76748] Process 1 finished cycle 6, performing I/O for 158 s
+[Time 76906] Process 1 executing cycle 7 for 42 s
+[Time 76948] Process 1 finished cycle 7, performing I/O for 158 s
+[Time 77106] Process 1 executing cycle 8 for 42 s
+[Time 77148] Process 1 finished cycle 8, performing I/O for 158 s
+[Time 77306] Process 1 executing cycle 9 for 42 s
+[Time 77348] Process 1 finished cycle 9, performing I/O for 158 s
+[Time 77506] Process 1 executing cycle 10 for 42 s
+[Time 77548] Process 1 finished cycle 10, performing I/O for 158 s
+[Time 77706] Process 1 executing cycle 11 for 42 s
+[Time 77748] Process 1 finished cycle 11, performing I/O for 158 s
+[Time 77906] Process 1 executing cycle 12 for 42 s
+[Time 77948] Process 1 finished cycle 12, performing I/O for 158 s
+[Time 78106] Process 1 executing cycle 13 for 42 s
+[Time 78148] Process 1 finished cycle 13, performing I/O for 158 s
+[Time 78306] Process 1 executing cycle 14 for 42 s
+[Time 78348] Process 1 finished cycle 14, performing I/O for 158 s
+[Time 78506] Process 1 executing cycle 15 for 42 s
+[Time 78548] Process 1 finished cycle 15, performing I/O for 158 s
+[Time 78706] Process 1 executing cycle 16 for 42 s
+[Time 78748] Process 1 finished cycle 16, performing I/O for 158 s
+[Time 78906] Process 1 executing cycle 17 for 42 s
+[Time 78948] Process 1 finished cycle 17, performing I/O for 158 s
+[Time 79106] Process 1 executing cycle 18 for 42 s
+[Time 79148] Process 1 finished cycle 18, performing I/O for 158 s
+[Time 79306] Process 1 executing cycle 19 for 42 s
+[Time 79348] Process 1 finished cycle 19, performing I/O for 158 s
+[Time 79506] Process 1 executing cycle 20 for 42 s
+[Time 79548] Process 1 finished cycle 20, performing I/O for 158 s
+[Time 79706] Process 1 executing cycle 21 for 42 s
+[Time 79748] Process 1 finished cycle 21, performing I/O for 158 s
+[Time 79906] Process 1 executing cycle 22 for 42 s
+[Time 79948] Process 1 finished cycle 22, performing I/O for 158 s
+[Time 80106] Process 1 executing cycle 23 for 42 s
+[Time 80148] Process 1 finished cycle 23, performing I/O for 158 s
+[Time 80306] Process 1 executing cycle 24 for 42 s
+[Time 80348] Process 1 finished cycle 24, performing I/O for 158 s
+[Time 80506] Process 1 executing cycle 25 for 42 s
+[Time 80548] Process 1 finished cycle 25, performing I/O for 158 s
+[Time 80706] Process 1 executing cycle 26 for 42 s
+[Time 80748] Process 1 finished cycle 26, performing I/O for 158 s
+[Time 80906] Process 1 executing cycle 27 for 42 s
+[Time 80948] Process 1 finished cycle 27, performing I/O for 158 s
+[Time 81106] Process 1 executing cycle 28 for 42 s
+[Time 81148] Process 1 finished cycle 28, performing I/O for 158 s
+[Time 81306] Process 1 executing cycle 29 for 42 s
+[Time 81348] Process 1 finished cycle 29, performing I/O for 158 s
+[Time 81506] Process 1 executing cycle 30 for 42 s
+[Time 81548] Process 1 finished cycle 30, performing I/O for 158 s
+[Time 81706] Process 1 executing cycle 31 for 42 s
+[Time 81748] Process 1 finished cycle 31, performing I/O for 158 s
+[Time 81906] Process 1 executing cycle 32 for 42 s
+[Time 81948] Process 1 finished cycle 32, performing I/O for 158 s
+[Time 82106] Process 1 executing cycle 33 for 42 s
+[Time 82148] Process 1 finished cycle 33, performing I/O for 158 s
+[Time 82306] Process 1 executing cycle 34 for 42 s
+[Time 82348] Process 1 finished cycle 34, performing I/O for 158 s
+[Time 82506] Process 1 executing cycle 35 for 42 s
+[Time 82548] Process 1 finished cycle 35, performing I/O for 158 s
+[Time 82706] Process 1 executing cycle 36 for 42 s
+[Time 82748] Process 1 finished cycle 36, performing I/O for 158 s
+[Time 82906] Process 1 executing cycle 37 for 42 s
+[Time 82948] Process 1 finished cycle 37, performing I/O for 158 s
+[Time 83106] Process 1 executing cycle 38 for 42 s
+[Time 83148] Process 1 finished cycle 38, performing I/O for 158 s
+[Time 83306] Process 1 executing cycle 39 for 42 s
+[Time 83348] Process 1 finished cycle 39, performing I/O for 158 s
+[Time 83506] Process 1 executing cycle 40 for 42 s
+[Time 83548] Process 1 finished cycle 40, performing I/O for 158 s
+[Time 83706] Process 1 executing cycle 41 for 42 s
+[Time 83748] Process 1 finished cycle 41, performing I/O for 158 s
+[Time 83906] Process 1 executing cycle 42 for 42 s
+[Time 83948] Process 1 finished cycle 42, performing I/O for 158 s
+[Time 84106] Process 1 executing cycle 43 for 42 s
+[Time 84148] Process 1 finished cycle 43, performing I/O for 158 s
+[Time 84306] Process 1 executing cycle 44 for 42 s
+[Time 84348] Process 1 finished cycle 44, performing I/O for 158 s
+[Time 84506] Process 1 executing cycle 45 for 42 s
+[Time 84548] Process 1 finished cycle 45, performing I/O for 158 s
+[Time 84706] Process 1 executing cycle 46 for 42 s
+[Time 84748] Process 1 finished cycle 46, performing I/O for 158 s
+[Time 84906] Process 1 executing cycle 47 for 42 s
+[Time 84948] Process 1 finished cycle 47, performing I/O for 158 s
+[Time 85106] Process 1 executing cycle 48 for 42 s
+[Time 85148] Process 1 finished cycle 48, performing I/O for 158 s
+[Time 85306] Process 1 executing cycle 49 for 42 s
+[Time 85348] Process 1 finished cycle 49, performing I/O for 158 s
+[Time 85506] Process 1 executing cycle 50 for 42 s
+[Time 85548] Process 1 finished cycle 50, performing I/O for 158 s
+[Time 85706] Process 1 executing cycle 51 for 42 s
+[Time 85748] Process 1 finished cycle 51, performing I/O for 158 s
+[Time 85906] Process 1 executing cycle 52 for 42 s
+[Time 85948] Process 1 finished cycle 52, performing I/O for 158 s
+[Time 86106] Process 1 executing cycle 53 for 42 s
+[Time 86148] Process 1 finished cycle 53, performing I/O for 158 s
+[Time 86306] Process 1 executing cycle 54 for 42 s
+[Time 86348] Process 1 finished cycle 54, performing I/O for 158 s
+[Time 86506] Process 1 executing cycle 55 for 42 s
+[Time 86548] Process 1 finished cycle 55, performing I/O for 158 s
+[Time 86706] Process 1 executing cycle 56 for 42 s
+[Time 86748] Process 1 finished cycle 56, performing I/O for 158 s
+[Time 86906] Process 1 executing cycle 57 for 42 s
+[Time 86948] Process 1 finished cycle 57, performing I/O for 158 s
+[Time 87106] Process 1 executing cycle 58 for 42 s
+[Time 87148] Process 1 finished cycle 58, performing I/O for 158 s
+[Time 87306] Process 1 executing cycle 59 for 42 s
+[Time 87348] Process 1 finished cycle 59, performing I/O for 158 s
+[Time 87506] Process 1 executing cycle 60 for 42 s
+[Time 87548] Process 1 finished cycle 60, performing I/O for 158 s
+[Time 87706] Process 1 executing cycle 61 for 42 s
+[Time 87748] Process 1 finished cycle 61, performing I/O for 158 s
+[Time 87906] Process 1 executing cycle 62 for 42 s
+[Time 87948] Process 1 finished cycle 62, performing I/O for 158 s
+[Time 88106] Process 1 executing cycle 63 for 42 s
+[Time 88148] Process 1 finished cycle 63, performing I/O for 158 s
+[Time 88306] Process 1 finished all cycles.
+[Time 88306] Process 4 executing cycle 1 for 29 s
+[Time 88335] Process 4 finished cycle 1, performing I/O for 61 s
+[Time 88396] Process 4 executing cycle 2 for 29 s
+[Time 88425] Process 4 finished cycle 2, performing I/O for 61 s
+[Time 88486] Process 4 executing cycle 3 for 29 s
+[Time 88515] Process 4 finished cycle 3, performing I/O for 61 s
+[Time 88576] Process 4 executing cycle 4 for 29 s
+[Time 88605] Process 4 finished cycle 4, performing I/O for 61 s
+[Time 88666] Process 4 executing cycle 5 for 29 s
+[Time 88695] Process 4 finished cycle 5, performing I/O for 61 s
+[Time 88756] Process 4 executing cycle 6 for 29 s
+[Time 88785] Process 4 finished cycle 6, performing I/O for 61 s
+[Time 88846] Process 4 executing cycle 7 for 29 s
+[Time 88875] Process 4 finished cycle 7, performing I/O for 61 s
+[Time 88936] Process 4 executing cycle 8 for 29 s
+[Time 88965] Process 4 finished cycle 8, performing I/O for 61 s
+[Time 89026] Process 4 executing cycle 9 for 29 s
+[Time 89055] Process 4 finished cycle 9, performing I/O for 61 s
+[Time 89116] Process 4 executing cycle 10 for 29 s
+[Time 89145] Process 4 finished cycle 10, performing I/O for 61 s
+[Time 89206] Process 4 executing cycle 11 for 29 s
+[Time 89235] Process 4 finished cycle 11, performing I/O for 61 s
+[Time 89296] Process 4 executing cycle 12 for 29 s
+[Time 89325] Process 4 finished cycle 12, performing I/O for 61 s
+[Time 89386] Process 4 executing cycle 13 for 29 s
+[Time 89415] Process 4 finished cycle 13, performing I/O for 61 s
+[Time 89476] Process 4 executing cycle 14 for 29 s
+[Time 89505] Process 4 finished cycle 14, performing I/O for 61 s
+[Time 89566] Process 4 executing cycle 15 for 29 s
+[Time 89595] Process 4 finished cycle 15, performing I/O for 61 s
+[Time 89656] Process 4 executing cycle 16 for 29 s
+[Time 89685] Process 4 finished cycle 16, performing I/O for 61 s
+[Time 89746] Process 4 executing cycle 17 for 29 s
+[Time 89775] Process 4 finished cycle 17, performing I/O for 61 s
+[Time 89836] Process 4 executing cycle 18 for 29 s
+[Time 89865] Process 4 finished cycle 18, performing I/O for 61 s
+[Time 89926] Process 4 executing cycle 19 for 29 s
+[Time 89955] Process 4 finished cycle 19, performing I/O for 61 s
+[Time 90016] Process 4 executing cycle 20 for 29 s
+[Time 90045] Process 4 finished cycle 20, performing I/O for 61 s
+[Time 90106] Process 4 executing cycle 21 for 29 s
+[Time 90135] Process 4 finished cycle 21, performing I/O for 61 s
+[Time 90196] Process 4 executing cycle 22 for 29 s
+[Time 90225] Process 4 finished cycle 22, performing I/O for 61 s
+[Time 90286] Process 4 executing cycle 23 for 29 s
+[Time 90315] Process 4 finished cycle 23, performing I/O for 61 s
+[Time 90376] Process 4 executing cycle 24 for 29 s
+[Time 90405] Process 4 finished cycle 24, performing I/O for 61 s
+[Time 90466] Process 4 executing cycle 25 for 29 s
+[Time 90495] Process 4 finished cycle 25, performing I/O for 61 s
+[Time 90556] Process 4 executing cycle 26 for 29 s
+[Time 90585] Process 4 finished cycle 26, performing I/O for 61 s
+[Time 90646] Process 4 executing cycle 27 for 29 s
+[Time 90675] Process 4 finished cycle 27, performing I/O for 61 s
+[Time 90736] Process 4 executing cycle 28 for 29 s
+[Time 90765] Process 4 finished cycle 28, performing I/O for 61 s
+[Time 90826] Process 4 executing cycle 29 for 29 s
+[Time 90855] Process 4 finished cycle 29, performing I/O for 61 s
+[Time 90916] Process 4 executing cycle 30 for 29 s
+[Time 90945] Process 4 finished cycle 30, performing I/O for 61 s
+[Time 91006] Process 4 executing cycle 31 for 29 s
+[Time 91035] Process 4 finished cycle 31, performing I/O for 61 s
+[Time 91096] Process 4 executing cycle 32 for 29 s
+[Time 91125] Process 4 finished cycle 32, performing I/O for 61 s
+[Time 91186] Process 4 executing cycle 33 for 29 s
+[Time 91215] Process 4 finished cycle 33, performing I/O for 61 s
+[Time 91276] Process 4 executing cycle 34 for 29 s
+[Time 91305] Process 4 finished cycle 34, performing I/O for 61 s
+[Time 91366] Process 4 executing cycle 35 for 29 s
+[Time 91395] Process 4 finished cycle 35, performing I/O for 61 s
+[Time 91456] Process 4 executing cycle 36 for 29 s
+[Time 91485] Process 4 finished cycle 36, performing I/O for 61 s
+[Time 91546] Process 4 executing cycle 37 for 29 s
+[Time 91575] Process 4 finished cycle 37, performing I/O for 61 s
+[Time 91636] Process 4 executing cycle 38 for 29 s
+[Time 91665] Process 4 finished cycle 38, performing I/O for 61 s
+[Time 91726] Process 4 executing cycle 39 for 29 s
+[Time 91755] Process 4 finished cycle 39, performing I/O for 61 s
+[Time 91816] Process 4 executing cycle 40 for 29 s
+[Time 91845] Process 4 finished cycle 40, performing I/O for 61 s
+[Time 91906] Process 4 executing cycle 41 for 29 s
+[Time 91935] Process 4 finished cycle 41, performing I/O for 61 s
+[Time 91996] Process 4 executing cycle 42 for 29 s
+[Time 92025] Process 4 finished cycle 42, performing I/O for 61 s
+[Time 92086] Process 4 executing cycle 43 for 29 s
+[Time 92115] Process 4 finished cycle 43, performing I/O for 61 s
+[Time 92176] Process 4 executing cycle 44 for 29 s
+[Time 92205] Process 4 finished cycle 44, performing I/O for 61 s
+[Time 92266] Process 4 executing cycle 45 for 29 s
+[Time 92295] Process 4 finished cycle 45, performing I/O for 61 s
+[Time 92356] Process 4 executing cycle 46 for 29 s
+[Time 92385] Process 4 finished cycle 46, performing I/O for 61 s
+[Time 92446] Process 4 executing cycle 47 for 29 s
+[Time 92475] Process 4 finished cycle 47, performing I/O for 61 s
+[Time 92536] Process 4 executing cycle 48 for 29 s
+[Time 92565] Process 4 finished cycle 48, performing I/O for 61 s
+[Time 92626] Process 4 executing cycle 49 for 29 s
+[Time 92655] Process 4 finished cycle 49, performing I/O for 61 s
+[Time 92716] Process 4 executing cycle 50 for 29 s
+[Time 92745] Process 4 finished cycle 50, performing I/O for 61 s
+[Time 92806] Process 4 executing cycle 51 for 29 s
+[Time 92835] Process 4 finished cycle 51, performing I/O for 61 s
+[Time 92896] Process 4 executing cycle 52 for 29 s
+[Time 92925] Process 4 finished cycle 52, performing I/O for 61 s
+[Time 92986] Process 4 executing cycle 53 for 29 s
+[Time 93015] Process 4 finished cycle 53, performing I/O for 61 s
+[Time 93076] Process 4 executing cycle 54 for 29 s
+[Time 93105] Process 4 finished cycle 54, performing I/O for 61 s
+[Time 93166] Process 4 executing cycle 55 for 29 s
+[Time 93195] Process 4 finished cycle 55, performing I/O for 61 s
+[Time 93256] Process 4 executing cycle 56 for 29 s
+[Time 93285] Process 4 finished cycle 56, performing I/O for 61 s
+[Time 93346] Process 4 executing cycle 57 for 29 s
+[Time 93375] Process 4 finished cycle 57, performing I/O for 61 s
+[Time 93436] Process 4 executing cycle 58 for 29 s
+[Time 93465] Process 4 finished cycle 58, performing I/O for 61 s
+[Time 93526] Process 4 executing cycle 59 for 29 s
+[Time 93555] Process 4 finished cycle 59, performing I/O for 61 s
+[Time 93616] Process 4 executing cycle 60 for 29 s
+[Time 93645] Process 4 finished cycle 60, performing I/O for 61 s
+[Time 93706] Process 4 executing cycle 61 for 29 s
+[Time 93735] Process 4 finished cycle 61, performing I/O for 61 s
+[Time 93796] Process 4 executing cycle 62 for 29 s
+[Time 93825] Process 4 finished cycle 62, performing I/O for 61 s
+[Time 93886] Process 4 executing cycle 63 for 29 s
+[Time 93915] Process 4 finished cycle 63, performing I/O for 61 s
+[Time 93976] Process 4 executing cycle 64 for 29 s
+[Time 94005] Process 4 finished cycle 64, performing I/O for 61 s
+[Time 94066] Process 4 executing cycle 65 for 29 s
+[Time 94095] Process 4 finished cycle 65, performing I/O for 61 s
+[Time 94156] Process 4 executing cycle 66 for 29 s
+[Time 94185] Process 4 finished cycle 66, performing I/O for 61 s
+[Time 94246] Process 4 executing cycle 67 for 29 s
+[Time 94275] Process 4 finished cycle 67, performing I/O for 61 s
+[Time 94336] Process 4 executing cycle 68 for 29 s
+[Time 94365] Process 4 finished cycle 68, performing I/O for 61 s
+[Time 94426] Process 4 executing cycle 69 for 29 s
+[Time 94455] Process 4 finished cycle 69, performing I/O for 61 s
+[Time 94516] Process 4 executing cycle 70 for 29 s
+[Time 94545] Process 4 finished cycle 70, performing I/O for 61 s
+[Time 94606] Process 4 executing cycle 71 for 29 s
+[Time 94635] Process 4 finished cycle 71, performing I/O for 61 s
+[Time 94696] Process 4 executing cycle 72 for 29 s
+[Time 94725] Process 4 finished cycle 72, performing I/O for 61 s
+[Time 94786] Process 4 executing cycle 73 for 29 s
+[Time 94815] Process 4 finished cycle 73, performing I/O for 61 s
+[Time 94876] Process 4 executing cycle 74 for 29 s
+[Time 94905] Process 4 finished cycle 74, performing I/O for 61 s
+[Time 94966] Process 4 executing cycle 75 for 29 s
+[Time 94995] Process 4 finished cycle 75, performing I/O for 61 s
+[Time 95056] Process 4 executing cycle 76 for 29 s
+[Time 95085] Process 4 finished cycle 76, performing I/O for 61 s
+[Time 95146] Process 4 executing cycle 77 for 29 s
+[Time 95175] Process 4 finished cycle 77, performing I/O for 61 s
+[Time 95236] Process 4 executing cycle 78 for 29 s
+[Time 95265] Process 4 finished cycle 78, performing I/O for 61 s
+[Time 95326] Process 4 executing cycle 79 for 29 s
+[Time 95355] Process 4 finished cycle 79, performing I/O for 61 s
+[Time 95416] Process 4 executing cycle 80 for 29 s
+[Time 95445] Process 4 finished cycle 80, performing I/O for 61 s
+[Time 95506] Process 4 executing cycle 81 for 29 s
+[Time 95535] Process 4 finished cycle 81, performing I/O for 61 s
+[Time 95596] Process 4 executing cycle 82 for 29 s
+[Time 95625] Process 4 finished cycle 82, performing I/O for 61 s
+[Time 95686] Process 4 executing cycle 83 for 29 s
+[Time 95715] Process 4 finished cycle 83, performing I/O for 61 s
+[Time 95776] Process 4 executing cycle 84 for 29 s
+[Time 95805] Process 4 finished cycle 84, performing I/O for 61 s
+[Time 95866] Process 4 executing cycle 85 for 29 s
+[Time 95895] Process 4 finished cycle 85, performing I/O for 61 s
+[Time 95956] Process 4 executing cycle 86 for 29 s
+[Time 95985] Process 4 finished cycle 86, performing I/O for 61 s
+[Time 96046] Process 4 executing cycle 87 for 29 s
+[Time 96075] Process 4 finished cycle 87, performing I/O for 61 s
+[Time 96136] Process 4 executing cycle 88 for 29 s
+[Time 96165] Process 4 finished cycle 88, performing I/O for 61 s
+[Time 96226] Process 4 executing cycle 89 for 29 s
+[Time 96255] Process 4 finished cycle 89, performing I/O for 61 s
+[Time 96316] Process 4 executing cycle 90 for 29 s
+[Time 96345] Process 4 finished cycle 90, performing I/O for 61 s
+[Time 96406] Process 4 executing cycle 91 for 29 s
+[Time 96435] Process 4 finished cycle 91, performing I/O for 61 s
+[Time 96496] Process 4 executing cycle 92 for 29 s
+[Time 96525] Process 4 finished cycle 92, performing I/O for 61 s
+[Time 96586] Process 4 executing cycle 93 for 29 s
+[Time 96615] Process 4 finished cycle 93, performing I/O for 61 s
+[Time 96676] Process 4 executing cycle 94 for 29 s
+[Time 96705] Process 4 finished cycle 94, performing I/O for 61 s
+[Time 96766] Process 4 executing cycle 95 for 29 s
+[Time 96795] Process 4 finished cycle 95, performing I/O for 61 s
+[Time 96856] Process 4 executing cycle 96 for 29 s
+[Time 96885] Process 4 finished cycle 96, performing I/O for 61 s
+[Time 96946] Process 4 executing cycle 97 for 29 s
+[Time 96975] Process 4 finished cycle 97, performing I/O for 61 s
+[Time 97036] Process 4 executing cycle 98 for 29 s
+[Time 97065] Process 4 finished cycle 98, performing I/O for 61 s
+[Time 97126] Process 4 executing cycle 99 for 29 s
+[Time 97155] Process 4 finished cycle 99, performing I/O for 61 s
+[Time 97216] Process 4 executing cycle 100 for 29 s
+[Time 97245] Process 4 finished cycle 100, performing I/O for 61 s
+[Time 97306] Process 4 executing cycle 101 for 29 s
+[Time 97335] Process 4 finished cycle 101, performing I/O for 61 s
+[Time 97396] Process 4 executing cycle 102 for 29 s
+[Time 97425] Process 4 finished cycle 102, performing I/O for 61 s
+[Time 97486] Process 4 executing cycle 103 for 29 s
+[Time 97515] Process 4 finished cycle 103, performing I/O for 61 s
+[Time 97576] Process 4 executing cycle 104 for 29 s
+[Time 97605] Process 4 finished cycle 104, performing I/O for 61 s
+[Time 97666] Process 4 executing cycle 105 for 29 s
+[Time 97695] Process 4 finished cycle 105, performing I/O for 61 s
+[Time 97756] Process 4 executing cycle 106 for 29 s
+[Time 97785] Process 4 finished cycle 106, performing I/O for 61 s
+[Time 97846] Process 4 executing cycle 107 for 29 s
+[Time 97875] Process 4 finished cycle 107, performing I/O for 61 s
+[Time 97936] Process 4 executing cycle 108 for 29 s
+[Time 97965] Process 4 finished cycle 108, performing I/O for 61 s
+[Time 98026] Process 4 executing cycle 109 for 29 s
+[Time 98055] Process 4 finished cycle 109, performing I/O for 61 s
+[Time 98116] Process 4 executing cycle 110 for 29 s
+[Time 98145] Process 4 finished cycle 110, performing I/O for 61 s
+[Time 98206] Process 4 executing cycle 111 for 29 s
+[Time 98235] Process 4 finished cycle 111, performing I/O for 61 s
+[Time 98296] Process 4 executing cycle 112 for 29 s
+[Time 98325] Process 4 finished cycle 112, performing I/O for 61 s
+[Time 98386] Process 4 executing cycle 113 for 29 s
+[Time 98415] Process 4 finished cycle 113, performing I/O for 61 s
+[Time 98476] Process 4 executing cycle 114 for 29 s
+[Time 98505] Process 4 finished cycle 114, performing I/O for 61 s
+[Time 98566] Process 4 executing cycle 115 for 29 s
+[Time 98595] Process 4 finished cycle 115, performing I/O for 61 s
+[Time 98656] Process 4 executing cycle 116 for 29 s
+[Time 98685] Process 4 finished cycle 116, performing I/O for 61 s
+[Time 98746] Process 4 executing cycle 117 for 29 s
+[Time 98775] Process 4 finished cycle 117, performing I/O for 61 s
+[Time 98836] Process 4 executing cycle 118 for 29 s
+[Time 98865] Process 4 finished cycle 118, performing I/O for 61 s
+[Time 98926] Process 4 executing cycle 119 for 29 s
+[Time 98955] Process 4 finished cycle 119, performing I/O for 61 s
+[Time 99016] Process 4 executing cycle 120 for 29 s
+[Time 99045] Process 4 finished cycle 120, performing I/O for 61 s
+[Time 99106] Process 4 executing cycle 121 for 29 s
+[Time 99135] Process 4 finished cycle 121, performing I/O for 61 s
+[Time 99196] Process 4 executing cycle 122 for 29 s
+[Time 99225] Process 4 finished cycle 122, performing I/O for 61 s
+[Time 99286] Process 4 executing cycle 123 for 29 s
+[Time 99315] Process 4 finished cycle 123, performing I/O for 61 s
+[Time 99376] Process 4 executing cycle 124 for 29 s
+[Time 99405] Process 4 finished cycle 124, performing I/O for 61 s
+[Time 99466] Process 4 executing cycle 125 for 29 s
+[Time 99495] Process 4 finished cycle 125, performing I/O for 61 s
+[Time 99556] Process 4 executing cycle 126 for 29 s
+[Time 99585] Process 4 finished cycle 126, performing I/O for 61 s
+[Time 99646] Process 4 executing cycle 127 for 29 s
+[Time 99675] Process 4 finished cycle 127, performing I/O for 61 s
+[Time 99736] Process 4 executing cycle 128 for 29 s
+[Time 99765] Process 4 finished cycle 128, performing I/O for 61 s
+[Time 99826] Process 4 executing cycle 129 for 29 s
+[Time 99855] Process 4 finished cycle 129, performing I/O for 61 s
+[Time 99916] Process 4 executing cycle 130 for 29 s
+[Time 99945] Process 4 finished cycle 130, performing I/O for 61 s
+[Time 100006] Process 4 executing cycle 131 for 29 s
+[Time 100035] Process 4 finished cycle 131, performing I/O for 61 s
+[Time 100096] Process 4 executing cycle 132 for 29 s
+[Time 100125] Process 4 finished cycle 132, performing I/O for 61 s
+[Time 100186] Process 4 executing cycle 133 for 29 s
+[Time 100215] Process 4 finished cycle 133, performing I/O for 61 s
+[Time 100276] Process 4 executing cycle 134 for 29 s
+[Time 100305] Process 4 finished cycle 134, performing I/O for 61 s
+[Time 100366] Process 4 executing cycle 135 for 29 s
+[Time 100395] Process 4 finished cycle 135, performing I/O for 61 s
+[Time 100456] Process 4 executing cycle 136 for 29 s
+[Time 100485] Process 4 finished cycle 136, performing I/O for 61 s
+[Time 100546] Process 4 executing cycle 137 for 29 s
+[Time 100575] Process 4 finished cycle 137, performing I/O for 61 s
+[Time 100636] Process 4 executing cycle 138 for 29 s
+[Time 100665] Process 4 finished cycle 138, performing I/O for 61 s
+[Time 100726] Process 4 executing cycle 139 for 29 s
+[Time 100755] Process 4 finished cycle 139, performing I/O for 61 s
+[Time 100816] Process 4 executing cycle 140 for 29 s
+[Time 100845] Process 4 finished cycle 140, performing I/O for 61 s
+[Time 100906] Process 4 executing cycle 141 for 29 s
+[Time 100935] Process 4 finished cycle 141, performing I/O for 61 s
+[Time 100996] Process 4 executing cycle 142 for 29 s
+[Time 101025] Process 4 finished cycle 142, performing I/O for 61 s
+[Time 101086] Process 4 executing cycle 143 for 29 s
+[Time 101115] Process 4 finished cycle 143, performing I/O for 61 s
+[Time 101176] Process 4 executing cycle 144 for 29 s
+[Time 101205] Process 4 finished cycle 144, performing I/O for 61 s
+[Time 101266] Process 4 executing cycle 145 for 29 s
+[Time 101295] Process 4 finished cycle 145, performing I/O for 61 s
+[Time 101356] Process 4 executing cycle 146 for 29 s
+[Time 101385] Process 4 finished cycle 146, performing I/O for 61 s
+[Time 101446] Process 4 executing cycle 147 for 29 s
+[Time 101475] Process 4 finished cycle 147, performing I/O for 61 s
+[Time 101536] Process 4 executing cycle 148 for 29 s
+[Time 101565] Process 4 finished cycle 148, performing I/O for 61 s
+[Time 101626] Process 4 executing cycle 149 for 29 s
+[Time 101655] Process 4 finished cycle 149, performing I/O for 61 s
+[Time 101716] Process 4 executing cycle 150 for 29 s
+[Time 101745] Process 4 finished cycle 150, performing I/O for 61 s
+[Time 101806] Process 4 executing cycle 151 for 29 s
+[Time 101835] Process 4 finished cycle 151, performing I/O for 61 s
+[Time 101896] Process 4 executing cycle 152 for 29 s
+[Time 101925] Process 4 finished cycle 152, performing I/O for 61 s
+[Time 101986] Process 4 executing cycle 153 for 29 s
+[Time 102015] Process 4 finished cycle 153, performing I/O for 61 s
+[Time 102076] Process 4 executing cycle 154 for 29 s
+[Time 102105] Process 4 finished cycle 154, performing I/O for 61 s
+[Time 102166] Process 4 finished all cycles.
 
 All processes completed.
 
 ==== Execution Report ====
 
-Process 1 Report:
-Arrival Time: 0
-Start Time: 0
-End Time: 44
-Turnaround Time: 44
-Waiting Time: 0
-Total CPU Time: 32
-Total I/O Time: 12
-Cycles Completed: 4
-
-Process 2 Report:
-Arrival Time: 1
-Start Time: 44
-End Time: 80
-Turnaround Time: 79
-Waiting Time: 43
-Total CPU Time: 30
-Total I/O Time: 6
-Cycles Completed: 3
-
 Process 3 Report:
-Arrival Time: 2
-Start Time: 80
-End Time: 128
-Turnaround Time: 126
-Waiting Time: 78
-Total CPU Time: 12
-Total I/O Time: 36
-Cycles Completed: 6
-
-Process 4 Report:
-Arrival Time: 3
-Start Time: 128
-End Time: 140
-Turnaround Time: 137
-Waiting Time: 125
-Total CPU Time: 10
-Total I/O Time: 2
-Cycles Completed: 2
+Arrival Time: 12
+Start Time: 12
+End Time: 27039
+Turnaround Time: 27027
+Waiting Time: 0
+Total CPU Time: 10296
+Total I/O Time: 16731
+Cycles Completed: 117
+Priority: 22
 
 Process 5 Report:
-Arrival Time: 4
-Start Time: 140
-End Time: 172
-Turnaround Time: 168
-Waiting Time: 136
-Total CPU Time: 24
-Total I/O Time: 8
-Cycles Completed: 2
+Arrival Time: 72
+Start Time: 27039
+End Time: 29339
+Turnaround Time: 29267
+Waiting Time: 26967
+Total CPU Time: 1340
+Total I/O Time: 960
+Cycles Completed: 10
+Priority: 199
+
+Process 2 Report:
+Arrival Time: 98
+Start Time: 29339
+End Time: 75706
+Turnaround Time: 75608
+Waiting Time: 29241
+Total CPU Time: 35024
+Total I/O Time: 11343
+Cycles Completed: 199
+Priority: 10
+
+Process 1 Report:
+Arrival Time: 137
+Start Time: 75706
+End Time: 88306
+Turnaround Time: 88169
+Waiting Time: 75569
+Total CPU Time: 2646
+Total I/O Time: 9954
+Cycles Completed: 63
+Priority: 32
+
+Process 4 Report:
+Arrival Time: 185
+Start Time: 88306
+End Time: 102166
+Turnaround Time: 101981
+Waiting Time: 88121
+Total CPU Time: 4466
+Total I/O Time: 9394
+Cycles Completed: 154
+Priority: 11
